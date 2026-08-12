@@ -1,2 +1,3 @@
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/tmp/vqnfkTr/7/ascon_permute.sv" into library work
-INFO: [VRFC 10-311] analyzing module ascon_permute
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/tmp/vk6eK9F/124/ascon_mac.sv" into library work
+INFO: [VRFC 10-311] analyzing module ascon_mac
+WARNING: [VRFC 10-8831] case statement must have case items [/tmp/vk6eK9F/124/ascon_mac.sv:82]
