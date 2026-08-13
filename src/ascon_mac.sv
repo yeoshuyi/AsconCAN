@@ -1,8 +1,8 @@
 module ascon_mac #(
-// Secret key to be defined by top level
+    // Secret key to be defined by top level
     parameter logic [127:0] SECRET_KEY = 127'd0,
 
-// IV based on 128b Key, 256b Rate, 12 Init Rnd, 12 Imm Rnd, 128b Tag
+    // IV based on 128b Key, 256b Rate, 12 Init Rnd, 12 Imm Rnd, 128b Tag
     parameter logic [63:0]  IV = 64'h80008C0000000080
 )(
     input wire              clk,
@@ -10,10 +10,11 @@ module ascon_mac #(
     input wire              sop,
     input wire              eop,
 
-    output wire             tagvalid,
+    output wire             tag_valid,
     output wire [127:0]     tag,
 
-    input wire [255:0]      absorb_in
+    input wire [255:0]      absorb_in,
+    input wire              absorb_pulse
 );
     // Function used to precompute initial state during compile-time 
     function automatic logic [319:0] ascon_p12(input logic[319:0] state_in);
@@ -51,34 +52,92 @@ module ascon_mac #(
         return {x0, x1, x2, x3, x4};
     endfunction 
 
+    // Initial State (Precalculated compile-time)
     localparam logic [319:0] INITIAL_STATE 
         = ascon_p12({IV, SECRET_KEY, 128'b0});
 
     typedef enum logic [1:0] {
         IDLE,
         ABSORB,
+        PRE_SQUEEZE,
         SQUEEZE
     } state_t;
 
+    // Internal Signal Declaration
     state_t current_state, next_state;
-    logic [0:4][63:0] s, next_s;
+    logic [0:4][63:0]   s, next_s, abtr_s;
+    logic [255:0]       abs, next_abs;
+    logic               tag_valid_reg;
+    logic [127:0]       tag_reg;
+    logic               abs_en, abs_done;
 
+    // Next Value Assignment
     always_ff @(posedge(clk)) begin
         if (rst == 1'b1) begin
             current_state   <= IDLE;
             s               <= INITIAL_STATE;
+            abs             <= absorb_in;
         end else begin
             current_state   <= next_state;
-            s               <= next_s;
+            abs             <= next_abs;
+            s <= (abs_done == 1'b1) ? next_s : s;
         end
     end
 
+    // Combinational Control Logic
     always_comb begin
-        next_state  = current_state;
-        next_s      = s;
+        next_state      = current_state;
+        next_abs        = abs;
+        abs_en          = 1'b0;
+        tag_valid_reg   = 1'b0;
+        tag_reg         = 128'd0;
 
-        case (current_state)
-
+        unique case (current_state)
+            IDLE: begin
+                next_state      = (sop == 1'b1) ? ABSORB : IDLE;
+                if (sop == 1'b1) begin
+                    abs_en      = 1'b1;
+                    next_state  = ABSORB;
+                    next_abs    = absorb_in;
+                end
+            end
+            ABSORB: begin
+                abs_en = 1'b1;
+                if (eop == 1'b1) begin
+                    next_state  = PRE_SQUEEZE;
+                end else begin
+                    if (absorb_pulse == 1'b1) begin
+                        next_abs    = absorb_in;
+                    end
+                end
+            end
+            PRE_SQUEEZE: begin
+                next_state      = SQUEEZE;
+                abs_en          = 1'b0;
+            end
+            SQUEEZE: begin
+                next_state      = IDLE;
+                tag_valid_reg   = 1'b1;
+                tag_reg         = s[319:192];
+            end
+            default: begin
+                next_state      = IDLE;
+            end
         endcase
     end
+
+    // Ascon Permute (12 Rnds) Core
+    assign abtr_s = (current_state == SQUEEZE) ? INITIAL_STATE : s;
+    ascon_permute ascon_permute_inst (
+        .clk(clk),
+        .rst(rst),
+        .en(abs_en),
+        .done(abs_done),
+        .state_in(abtr_s),
+        .state_out(next_s)
+    );
+
+    // Output Assignment
+    assign tag_valid    = tag_valid_reg;
+    assign tag          = tag_reg;
 endmodule
