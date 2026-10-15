@@ -39,6 +39,9 @@ CFLAGS   := $(WARN) $(CFLAGS_$(MODE)) -fPIC $(SSL_CFLAGS) $(EXTRA_CFLAGS)
 LDFLAGS_debug := -fsanitize=address,undefined
 LDFLAGS  := $(LDFLAGS_$(MODE))
 
+XSIM_BIN  := $(shell command -v xsim 2>/dev/null)
+SVDPI_INC ?= $(if $(XSIM_BIN),$(abspath $(dir $(XSIM_BIN))../data/xsim/include))
+
 MAC_INC := -I$(MAC_DIR)/ref -I$(ASCON_C)/tests
 AEAD_INC := -I$(AEAD_DIR)/ref -I$(ASCON_C)/tests
 
@@ -49,7 +52,7 @@ B := build/$(MODE)
 CORE_OBJS := $(B)/ref_mac_core.o $(B)/ref_mac_ascon.o $(B)/ref_aead_core.o $(B)/ref_aead_ascon.o
 HDRS := $(MAC_SRC_DIR)/ref_mac_core.h $(MAC_SRC_DIR)/ref_mac_ascon.h $(AEAD_SRC_DIR)/ref_aead_core.h $(AEAD_SRC_DIR)/ref_aead_ascon.h
 
-.PHONY: kat_mac kat_aead test clean FORCE
+.PHONY: kat_mac kat_aead test dpi clean FORCE
 
 build/mode.stamp: FORCE
 	@mkdir -p build
@@ -76,6 +79,17 @@ kat_mac: $(B)/kat_mac.o $(CORE_OBJS) build/mode.stamp
 
 kat_aead: $(B)/kat_aead.o $(CORE_OBJS) build/mode.stamp
 	$(CC) $(LDFLAGS) $(B)/kat_aead.o $(CORE_OBJS) $(SSL_LIBS) -o $(B)/$@
+
+$(B)/ref_dpi.o: ref_dpi.c $(HDRS) Makefile | build/mode.stamp
+	@mkdir -p $(B)
+	@[ -f "$(SVDPI_INC)/svdpi.h" ] || { echo "svdpi.h not found; set SVDPI_INC=<dir>"; exit 1; }
+	$(CC) $(CFLAGS) -I$(SVDPI_INC) -c $< -o $@
+
+# Shared library loaded by the simulator (xelab -sv_lib ref_dpi).
+$(B)/libref_dpi.so: $(B)/ref_dpi.o $(CORE_OBJS)
+	$(CC) -shared $(LDFLAGS) $^ $(SSL_LIBS) -o $@
+
+dpi: $(B)/libref_dpi.so
 
 test: kat_mac kat_aead
 	@./$(B)/kat_mac $(MAC_KAT) $(CAVP) > build/kat_mac.log; rc=$$?; \

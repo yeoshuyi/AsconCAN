@@ -21,7 +21,7 @@ static int arr_size(const svOpenArrayHandle h) {
 // Read Arr
 static int arr_read(const svOpenArrayHandle h, uint8_t *dst, int n) {
     const int low = svLow(h, 1);
-    for (size_t i = 0; i < n; ++i) {
+    for (int i = 0; i < n; ++i) {
         const uint8_t *p = (const uint8_t *)svGetArrElemPtr1(h, low + i);
         if (p == NULL) return -1;
         dst[i] = *p;
@@ -39,8 +39,8 @@ static int arr_get(const svOpenArrayHandle h, uint8_t *dst, int n) {
 // Write Arr
 static int arr_write(const svOpenArrayHandle h, uint8_t *src, int n) {
     const int low = svLow(h, 1);
-    for (size_t i = 0; i < n; ++i) {
-        uint8_t *p = (uint8_t *)svGetArrElemPtr1(h, low+1);
+    for (int i = 0; i < n; ++i) {
+        uint8_t *p = (uint8_t *)svGetArrElemPtr1(h, low + i);
         if (p == NULL) return -1;
         *p = src[i];
     }
@@ -54,7 +54,6 @@ int ref_mac_dpi(int alg, const svOpenArrayHandle key, const svOpenArrayHandle ms
     uint8_t tag_buf[REF_MAC_TAG_BYTES];
     uint8_t msg_buf[REF_MAC_MAX_BYTES];
     const uint8_t *msg_p = NULL;
-    uint8_t *p;
     int rc;
 
     /* Input Validation */
@@ -67,11 +66,8 @@ int ref_mac_dpi(int alg, const svOpenArrayHandle key, const svOpenArrayHandle ms
 
     if (msg_len > 0) {
         if (arr_size(msg) < msg_len) return REF_MAC_ERR_DPI;
-        msg_p = arr_ptr(msg);
-        if (msg_p == NULL) {
-            if (arr_read(msg, msg_buf, msg_len) != 0) return REF_MAC_ERR_DPI;
-            msg_p = msg_buf;
-        }
+        if (arr_read(msg, msg_buf, msg_len) != 0) return REF_MAC_ERR_DPI;
+        msg_p = msg_buf;
     }
 
     rc = ref_mac_compute(alg, key_buf, msg_p, (size_t)msg_len, tag_buf, (size_t)tag_len);
