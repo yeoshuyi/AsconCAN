@@ -28,12 +28,6 @@ static uint8_t *dup_exact(const uint8_t *p, size_t n) {
     return b;
 }
 
-/*
- * One vector, checked four ways: encryption gives ct and tag; decryption
- * gives pt back; and a flipped bit in the tag, in the ciphertext and in the
- * associated data is each rejected without releasing plaintext.
- */
-
 /* For every vector, we check encryption gives ct and tag and decryption returns pt.
  * Additionally, flipped bit in tag should reject the tag and not return pt.
  */
