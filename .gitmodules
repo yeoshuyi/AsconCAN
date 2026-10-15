@@ -1,0 +1,3 @@
+[submodule "tb/csrc/thirdparty/ascon-c"]
+	path = tb/csrc/thirdparty/ascon-c
+	url = https://github.com/ascon/ascon-c

@@ -30,3 +30,5 @@ fpga/reports/
 src/xvlog.log
 src/xvlog.pb
 
+# thirdparty
+tb/ref_mac/third_party/
