@@ -58,12 +58,12 @@ $(B)/ref_mac_ascon.o: $(MAC_SRC_DIR)/ref_mac_ascon.c $(HDRS) Makefile $(ASCON_DI
 	@mkdir -p $(B)
 	$(CC) $(CFLAGS) $(ASCON_INC) -c $< -o $@
 
-kat_mac: $(B)/kat_test.o $(CORE_OBJS) build/mode.stamp
-	$(CC) $(LDFLAGS) $(B)/kat_test.o $(CORE_OBJS) $(SSL_LIBS) -o $@
+kat_mac: $(B)/kat_mac.o $(CORE_OBJS) build/mode.stamp
+	$(CC) $(LDFLAGS) $(B)/kat_mac.o $(CORE_OBJS) $(SSL_LIBS) -o $(B)/$@
 
 test: kat_mac 
-	@./kat_mac $(ASCON_KAT) $(CAVP) > build/kat_test.log; rc=$$?; \
-	  grep -E "^(FAIL|==|SUMMARY)" build/kat_test.log; exit $$rc
+	@./$(B)/kat_mac $(ASCON_KAT) $(CAVP) > build/kat_mac.log; rc=$$?; \
+	  grep -E "^(FAIL|==|SUMMARY)" build/kat_mac.log; exit $$rc
 	
 clean:
 	rm -rf build
