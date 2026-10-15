@@ -1,0 +1,1201 @@
+== Ascon-Mac: official ascon-c KAT file thirdparty/ascon-c/crypto_auth/asconmacv13/LWC_MAC_KAT_128_128.txt
+PASS  Ascon-MAC    len=0     tlen=16 LWC_MAC_KAT_128_128.txt Count=1
+PASS  Ascon-MAC    len=1     tlen=16 LWC_MAC_KAT_128_128.txt Count=2
+PASS  Ascon-MAC    len=2     tlen=16 LWC_MAC_KAT_128_128.txt Count=3
+PASS  Ascon-MAC    len=3     tlen=16 LWC_MAC_KAT_128_128.txt Count=4
+PASS  Ascon-MAC    len=4     tlen=16 LWC_MAC_KAT_128_128.txt Count=5
+PASS  Ascon-MAC    len=5     tlen=16 LWC_MAC_KAT_128_128.txt Count=6
+PASS  Ascon-MAC    len=6     tlen=16 LWC_MAC_KAT_128_128.txt Count=7
+PASS  Ascon-MAC    len=7     tlen=16 LWC_MAC_KAT_128_128.txt Count=8
+PASS  Ascon-MAC    len=8     tlen=16 LWC_MAC_KAT_128_128.txt Count=9
+PASS  Ascon-MAC    len=9     tlen=16 LWC_MAC_KAT_128_128.txt Count=10
+PASS  Ascon-MAC    len=10    tlen=16 LWC_MAC_KAT_128_128.txt Count=11
+PASS  Ascon-MAC    len=11    tlen=16 LWC_MAC_KAT_128_128.txt Count=12
+PASS  Ascon-MAC    len=12    tlen=16 LWC_MAC_KAT_128_128.txt Count=13
+PASS  Ascon-MAC    len=13    tlen=16 LWC_MAC_KAT_128_128.txt Count=14
+PASS  Ascon-MAC    len=14    tlen=16 LWC_MAC_KAT_128_128.txt Count=15
+PASS  Ascon-MAC    len=15    tlen=16 LWC_MAC_KAT_128_128.txt Count=16
+PASS  Ascon-MAC    len=16    tlen=16 LWC_MAC_KAT_128_128.txt Count=17
+PASS  Ascon-MAC    len=17    tlen=16 LWC_MAC_KAT_128_128.txt Count=18
+PASS  Ascon-MAC    len=18    tlen=16 LWC_MAC_KAT_128_128.txt Count=19
+PASS  Ascon-MAC    len=19    tlen=16 LWC_MAC_KAT_128_128.txt Count=20
+PASS  Ascon-MAC    len=20    tlen=16 LWC_MAC_KAT_128_128.txt Count=21
+PASS  Ascon-MAC    len=21    tlen=16 LWC_MAC_KAT_128_128.txt Count=22
+PASS  Ascon-MAC    len=22    tlen=16 LWC_MAC_KAT_128_128.txt Count=23
+PASS  Ascon-MAC    len=23    tlen=16 LWC_MAC_KAT_128_128.txt Count=24
+PASS  Ascon-MAC    len=24    tlen=16 LWC_MAC_KAT_128_128.txt Count=25
+PASS  Ascon-MAC    len=25    tlen=16 LWC_MAC_KAT_128_128.txt Count=26
+PASS  Ascon-MAC    len=26    tlen=16 LWC_MAC_KAT_128_128.txt Count=27
+PASS  Ascon-MAC    len=27    tlen=16 LWC_MAC_KAT_128_128.txt Count=28
+PASS  Ascon-MAC    len=28    tlen=16 LWC_MAC_KAT_128_128.txt Count=29
+PASS  Ascon-MAC    len=29    tlen=16 LWC_MAC_KAT_128_128.txt Count=30
+PASS  Ascon-MAC    len=30    tlen=16 LWC_MAC_KAT_128_128.txt Count=31
+PASS  Ascon-MAC    len=31    tlen=16 LWC_MAC_KAT_128_128.txt Count=32
+PASS  Ascon-MAC    len=32    tlen=16 LWC_MAC_KAT_128_128.txt Count=33
+PASS  Ascon-MAC    len=33    tlen=16 LWC_MAC_KAT_128_128.txt Count=34
+PASS  Ascon-MAC    len=34    tlen=16 LWC_MAC_KAT_128_128.txt Count=35
+PASS  Ascon-MAC    len=35    tlen=16 LWC_MAC_KAT_128_128.txt Count=36
+PASS  Ascon-MAC    len=36    tlen=16 LWC_MAC_KAT_128_128.txt Count=37
+PASS  Ascon-MAC    len=37    tlen=16 LWC_MAC_KAT_128_128.txt Count=38
+PASS  Ascon-MAC    len=38    tlen=16 LWC_MAC_KAT_128_128.txt Count=39
+PASS  Ascon-MAC    len=39    tlen=16 LWC_MAC_KAT_128_128.txt Count=40
+PASS  Ascon-MAC    len=40    tlen=16 LWC_MAC_KAT_128_128.txt Count=41
+PASS  Ascon-MAC    len=41    tlen=16 LWC_MAC_KAT_128_128.txt Count=42
+PASS  Ascon-MAC    len=42    tlen=16 LWC_MAC_KAT_128_128.txt Count=43
+PASS  Ascon-MAC    len=43    tlen=16 LWC_MAC_KAT_128_128.txt Count=44
+PASS  Ascon-MAC    len=44    tlen=16 LWC_MAC_KAT_128_128.txt Count=45
+PASS  Ascon-MAC    len=45    tlen=16 LWC_MAC_KAT_128_128.txt Count=46
+PASS  Ascon-MAC    len=46    tlen=16 LWC_MAC_KAT_128_128.txt Count=47
+PASS  Ascon-MAC    len=47    tlen=16 LWC_MAC_KAT_128_128.txt Count=48
+PASS  Ascon-MAC    len=48    tlen=16 LWC_MAC_KAT_128_128.txt Count=49
+PASS  Ascon-MAC    len=49    tlen=16 LWC_MAC_KAT_128_128.txt Count=50
+PASS  Ascon-MAC    len=50    tlen=16 LWC_MAC_KAT_128_128.txt Count=51
+PASS  Ascon-MAC    len=51    tlen=16 LWC_MAC_KAT_128_128.txt Count=52
+PASS  Ascon-MAC    len=52    tlen=16 LWC_MAC_KAT_128_128.txt Count=53
+PASS  Ascon-MAC    len=53    tlen=16 LWC_MAC_KAT_128_128.txt Count=54
+PASS  Ascon-MAC    len=54    tlen=16 LWC_MAC_KAT_128_128.txt Count=55
+PASS  Ascon-MAC    len=55    tlen=16 LWC_MAC_KAT_128_128.txt Count=56
+PASS  Ascon-MAC    len=56    tlen=16 LWC_MAC_KAT_128_128.txt Count=57
+PASS  Ascon-MAC    len=57    tlen=16 LWC_MAC_KAT_128_128.txt Count=58
+PASS  Ascon-MAC    len=58    tlen=16 LWC_MAC_KAT_128_128.txt Count=59
+PASS  Ascon-MAC    len=59    tlen=16 LWC_MAC_KAT_128_128.txt Count=60
+PASS  Ascon-MAC    len=60    tlen=16 LWC_MAC_KAT_128_128.txt Count=61
+PASS  Ascon-MAC    len=61    tlen=16 LWC_MAC_KAT_128_128.txt Count=62
+PASS  Ascon-MAC    len=62    tlen=16 LWC_MAC_KAT_128_128.txt Count=63
+PASS  Ascon-MAC    len=63    tlen=16 LWC_MAC_KAT_128_128.txt Count=64
+PASS  Ascon-MAC    len=64    tlen=16 LWC_MAC_KAT_128_128.txt Count=65
+PASS  Ascon-MAC    len=65    tlen=16 LWC_MAC_KAT_128_128.txt Count=66
+PASS  Ascon-MAC    len=66    tlen=16 LWC_MAC_KAT_128_128.txt Count=67
+PASS  Ascon-MAC    len=67    tlen=16 LWC_MAC_KAT_128_128.txt Count=68
+PASS  Ascon-MAC    len=68    tlen=16 LWC_MAC_KAT_128_128.txt Count=69
+PASS  Ascon-MAC    len=69    tlen=16 LWC_MAC_KAT_128_128.txt Count=70
+PASS  Ascon-MAC    len=70    tlen=16 LWC_MAC_KAT_128_128.txt Count=71
+PASS  Ascon-MAC    len=71    tlen=16 LWC_MAC_KAT_128_128.txt Count=72
+PASS  Ascon-MAC    len=72    tlen=16 LWC_MAC_KAT_128_128.txt Count=73
+PASS  Ascon-MAC    len=73    tlen=16 LWC_MAC_KAT_128_128.txt Count=74
+PASS  Ascon-MAC    len=74    tlen=16 LWC_MAC_KAT_128_128.txt Count=75
+PASS  Ascon-MAC    len=75    tlen=16 LWC_MAC_KAT_128_128.txt Count=76
+PASS  Ascon-MAC    len=76    tlen=16 LWC_MAC_KAT_128_128.txt Count=77
+PASS  Ascon-MAC    len=77    tlen=16 LWC_MAC_KAT_128_128.txt Count=78
+PASS  Ascon-MAC    len=78    tlen=16 LWC_MAC_KAT_128_128.txt Count=79
+PASS  Ascon-MAC    len=79    tlen=16 LWC_MAC_KAT_128_128.txt Count=80
+PASS  Ascon-MAC    len=80    tlen=16 LWC_MAC_KAT_128_128.txt Count=81
+PASS  Ascon-MAC    len=81    tlen=16 LWC_MAC_KAT_128_128.txt Count=82
+PASS  Ascon-MAC    len=82    tlen=16 LWC_MAC_KAT_128_128.txt Count=83
+PASS  Ascon-MAC    len=83    tlen=16 LWC_MAC_KAT_128_128.txt Count=84
+PASS  Ascon-MAC    len=84    tlen=16 LWC_MAC_KAT_128_128.txt Count=85
+PASS  Ascon-MAC    len=85    tlen=16 LWC_MAC_KAT_128_128.txt Count=86
+PASS  Ascon-MAC    len=86    tlen=16 LWC_MAC_KAT_128_128.txt Count=87
+PASS  Ascon-MAC    len=87    tlen=16 LWC_MAC_KAT_128_128.txt Count=88
+PASS  Ascon-MAC    len=88    tlen=16 LWC_MAC_KAT_128_128.txt Count=89
+PASS  Ascon-MAC    len=89    tlen=16 LWC_MAC_KAT_128_128.txt Count=90
+PASS  Ascon-MAC    len=90    tlen=16 LWC_MAC_KAT_128_128.txt Count=91
+PASS  Ascon-MAC    len=91    tlen=16 LWC_MAC_KAT_128_128.txt Count=92
+PASS  Ascon-MAC    len=92    tlen=16 LWC_MAC_KAT_128_128.txt Count=93
+PASS  Ascon-MAC    len=93    tlen=16 LWC_MAC_KAT_128_128.txt Count=94
+PASS  Ascon-MAC    len=94    tlen=16 LWC_MAC_KAT_128_128.txt Count=95
+PASS  Ascon-MAC    len=95    tlen=16 LWC_MAC_KAT_128_128.txt Count=96
+PASS  Ascon-MAC    len=96    tlen=16 LWC_MAC_KAT_128_128.txt Count=97
+PASS  Ascon-MAC    len=97    tlen=16 LWC_MAC_KAT_128_128.txt Count=98
+PASS  Ascon-MAC    len=98    tlen=16 LWC_MAC_KAT_128_128.txt Count=99
+PASS  Ascon-MAC    len=99    tlen=16 LWC_MAC_KAT_128_128.txt Count=100
+PASS  Ascon-MAC    len=100   tlen=16 LWC_MAC_KAT_128_128.txt Count=101
+PASS  Ascon-MAC    len=101   tlen=16 LWC_MAC_KAT_128_128.txt Count=102
+PASS  Ascon-MAC    len=102   tlen=16 LWC_MAC_KAT_128_128.txt Count=103
+PASS  Ascon-MAC    len=103   tlen=16 LWC_MAC_KAT_128_128.txt Count=104
+PASS  Ascon-MAC    len=104   tlen=16 LWC_MAC_KAT_128_128.txt Count=105
+PASS  Ascon-MAC    len=105   tlen=16 LWC_MAC_KAT_128_128.txt Count=106
+PASS  Ascon-MAC    len=106   tlen=16 LWC_MAC_KAT_128_128.txt Count=107
+PASS  Ascon-MAC    len=107   tlen=16 LWC_MAC_KAT_128_128.txt Count=108
+PASS  Ascon-MAC    len=108   tlen=16 LWC_MAC_KAT_128_128.txt Count=109
+PASS  Ascon-MAC    len=109   tlen=16 LWC_MAC_KAT_128_128.txt Count=110
+PASS  Ascon-MAC    len=110   tlen=16 LWC_MAC_KAT_128_128.txt Count=111
+PASS  Ascon-MAC    len=111   tlen=16 LWC_MAC_KAT_128_128.txt Count=112
+PASS  Ascon-MAC    len=112   tlen=16 LWC_MAC_KAT_128_128.txt Count=113
+PASS  Ascon-MAC    len=113   tlen=16 LWC_MAC_KAT_128_128.txt Count=114
+PASS  Ascon-MAC    len=114   tlen=16 LWC_MAC_KAT_128_128.txt Count=115
+PASS  Ascon-MAC    len=115   tlen=16 LWC_MAC_KAT_128_128.txt Count=116
+PASS  Ascon-MAC    len=116   tlen=16 LWC_MAC_KAT_128_128.txt Count=117
+PASS  Ascon-MAC    len=117   tlen=16 LWC_MAC_KAT_128_128.txt Count=118
+PASS  Ascon-MAC    len=118   tlen=16 LWC_MAC_KAT_128_128.txt Count=119
+PASS  Ascon-MAC    len=119   tlen=16 LWC_MAC_KAT_128_128.txt Count=120
+PASS  Ascon-MAC    len=120   tlen=16 LWC_MAC_KAT_128_128.txt Count=121
+PASS  Ascon-MAC    len=121   tlen=16 LWC_MAC_KAT_128_128.txt Count=122
+PASS  Ascon-MAC    len=122   tlen=16 LWC_MAC_KAT_128_128.txt Count=123
+PASS  Ascon-MAC    len=123   tlen=16 LWC_MAC_KAT_128_128.txt Count=124
+PASS  Ascon-MAC    len=124   tlen=16 LWC_MAC_KAT_128_128.txt Count=125
+PASS  Ascon-MAC    len=125   tlen=16 LWC_MAC_KAT_128_128.txt Count=126
+PASS  Ascon-MAC    len=126   tlen=16 LWC_MAC_KAT_128_128.txt Count=127
+PASS  Ascon-MAC    len=127   tlen=16 LWC_MAC_KAT_128_128.txt Count=128
+PASS  Ascon-MAC    len=128   tlen=16 LWC_MAC_KAT_128_128.txt Count=129
+PASS  Ascon-MAC    len=129   tlen=16 LWC_MAC_KAT_128_128.txt Count=130
+PASS  Ascon-MAC    len=130   tlen=16 LWC_MAC_KAT_128_128.txt Count=131
+PASS  Ascon-MAC    len=131   tlen=16 LWC_MAC_KAT_128_128.txt Count=132
+PASS  Ascon-MAC    len=132   tlen=16 LWC_MAC_KAT_128_128.txt Count=133
+PASS  Ascon-MAC    len=133   tlen=16 LWC_MAC_KAT_128_128.txt Count=134
+PASS  Ascon-MAC    len=134   tlen=16 LWC_MAC_KAT_128_128.txt Count=135
+PASS  Ascon-MAC    len=135   tlen=16 LWC_MAC_KAT_128_128.txt Count=136
+PASS  Ascon-MAC    len=136   tlen=16 LWC_MAC_KAT_128_128.txt Count=137
+PASS  Ascon-MAC    len=137   tlen=16 LWC_MAC_KAT_128_128.txt Count=138
+PASS  Ascon-MAC    len=138   tlen=16 LWC_MAC_KAT_128_128.txt Count=139
+PASS  Ascon-MAC    len=139   tlen=16 LWC_MAC_KAT_128_128.txt Count=140
+PASS  Ascon-MAC    len=140   tlen=16 LWC_MAC_KAT_128_128.txt Count=141
+PASS  Ascon-MAC    len=141   tlen=16 LWC_MAC_KAT_128_128.txt Count=142
+PASS  Ascon-MAC    len=142   tlen=16 LWC_MAC_KAT_128_128.txt Count=143
+PASS  Ascon-MAC    len=143   tlen=16 LWC_MAC_KAT_128_128.txt Count=144
+PASS  Ascon-MAC    len=144   tlen=16 LWC_MAC_KAT_128_128.txt Count=145
+PASS  Ascon-MAC    len=145   tlen=16 LWC_MAC_KAT_128_128.txt Count=146
+PASS  Ascon-MAC    len=146   tlen=16 LWC_MAC_KAT_128_128.txt Count=147
+PASS  Ascon-MAC    len=147   tlen=16 LWC_MAC_KAT_128_128.txt Count=148
+PASS  Ascon-MAC    len=148   tlen=16 LWC_MAC_KAT_128_128.txt Count=149
+PASS  Ascon-MAC    len=149   tlen=16 LWC_MAC_KAT_128_128.txt Count=150
+PASS  Ascon-MAC    len=150   tlen=16 LWC_MAC_KAT_128_128.txt Count=151
+PASS  Ascon-MAC    len=151   tlen=16 LWC_MAC_KAT_128_128.txt Count=152
+PASS  Ascon-MAC    len=152   tlen=16 LWC_MAC_KAT_128_128.txt Count=153
+PASS  Ascon-MAC    len=153   tlen=16 LWC_MAC_KAT_128_128.txt Count=154
+PASS  Ascon-MAC    len=154   tlen=16 LWC_MAC_KAT_128_128.txt Count=155
+PASS  Ascon-MAC    len=155   tlen=16 LWC_MAC_KAT_128_128.txt Count=156
+PASS  Ascon-MAC    len=156   tlen=16 LWC_MAC_KAT_128_128.txt Count=157
+PASS  Ascon-MAC    len=157   tlen=16 LWC_MAC_KAT_128_128.txt Count=158
+PASS  Ascon-MAC    len=158   tlen=16 LWC_MAC_KAT_128_128.txt Count=159
+PASS  Ascon-MAC    len=159   tlen=16 LWC_MAC_KAT_128_128.txt Count=160
+PASS  Ascon-MAC    len=160   tlen=16 LWC_MAC_KAT_128_128.txt Count=161
+PASS  Ascon-MAC    len=161   tlen=16 LWC_MAC_KAT_128_128.txt Count=162
+PASS  Ascon-MAC    len=162   tlen=16 LWC_MAC_KAT_128_128.txt Count=163
+PASS  Ascon-MAC    len=163   tlen=16 LWC_MAC_KAT_128_128.txt Count=164
+PASS  Ascon-MAC    len=164   tlen=16 LWC_MAC_KAT_128_128.txt Count=165
+PASS  Ascon-MAC    len=165   tlen=16 LWC_MAC_KAT_128_128.txt Count=166
+PASS  Ascon-MAC    len=166   tlen=16 LWC_MAC_KAT_128_128.txt Count=167
+PASS  Ascon-MAC    len=167   tlen=16 LWC_MAC_KAT_128_128.txt Count=168
+PASS  Ascon-MAC    len=168   tlen=16 LWC_MAC_KAT_128_128.txt Count=169
+PASS  Ascon-MAC    len=169   tlen=16 LWC_MAC_KAT_128_128.txt Count=170
+PASS  Ascon-MAC    len=170   tlen=16 LWC_MAC_KAT_128_128.txt Count=171
+PASS  Ascon-MAC    len=171   tlen=16 LWC_MAC_KAT_128_128.txt Count=172
+PASS  Ascon-MAC    len=172   tlen=16 LWC_MAC_KAT_128_128.txt Count=173
+PASS  Ascon-MAC    len=173   tlen=16 LWC_MAC_KAT_128_128.txt Count=174
+PASS  Ascon-MAC    len=174   tlen=16 LWC_MAC_KAT_128_128.txt Count=175
+PASS  Ascon-MAC    len=175   tlen=16 LWC_MAC_KAT_128_128.txt Count=176
+PASS  Ascon-MAC    len=176   tlen=16 LWC_MAC_KAT_128_128.txt Count=177
+PASS  Ascon-MAC    len=177   tlen=16 LWC_MAC_KAT_128_128.txt Count=178
+PASS  Ascon-MAC    len=178   tlen=16 LWC_MAC_KAT_128_128.txt Count=179
+PASS  Ascon-MAC    len=179   tlen=16 LWC_MAC_KAT_128_128.txt Count=180
+PASS  Ascon-MAC    len=180   tlen=16 LWC_MAC_KAT_128_128.txt Count=181
+PASS  Ascon-MAC    len=181   tlen=16 LWC_MAC_KAT_128_128.txt Count=182
+PASS  Ascon-MAC    len=182   tlen=16 LWC_MAC_KAT_128_128.txt Count=183
+PASS  Ascon-MAC    len=183   tlen=16 LWC_MAC_KAT_128_128.txt Count=184
+PASS  Ascon-MAC    len=184   tlen=16 LWC_MAC_KAT_128_128.txt Count=185
+PASS  Ascon-MAC    len=185   tlen=16 LWC_MAC_KAT_128_128.txt Count=186
+PASS  Ascon-MAC    len=186   tlen=16 LWC_MAC_KAT_128_128.txt Count=187
+PASS  Ascon-MAC    len=187   tlen=16 LWC_MAC_KAT_128_128.txt Count=188
+PASS  Ascon-MAC    len=188   tlen=16 LWC_MAC_KAT_128_128.txt Count=189
+PASS  Ascon-MAC    len=189   tlen=16 LWC_MAC_KAT_128_128.txt Count=190
+PASS  Ascon-MAC    len=190   tlen=16 LWC_MAC_KAT_128_128.txt Count=191
+PASS  Ascon-MAC    len=191   tlen=16 LWC_MAC_KAT_128_128.txt Count=192
+PASS  Ascon-MAC    len=192   tlen=16 LWC_MAC_KAT_128_128.txt Count=193
+PASS  Ascon-MAC    len=193   tlen=16 LWC_MAC_KAT_128_128.txt Count=194
+PASS  Ascon-MAC    len=194   tlen=16 LWC_MAC_KAT_128_128.txt Count=195
+PASS  Ascon-MAC    len=195   tlen=16 LWC_MAC_KAT_128_128.txt Count=196
+PASS  Ascon-MAC    len=196   tlen=16 LWC_MAC_KAT_128_128.txt Count=197
+PASS  Ascon-MAC    len=197   tlen=16 LWC_MAC_KAT_128_128.txt Count=198
+PASS  Ascon-MAC    len=198   tlen=16 LWC_MAC_KAT_128_128.txt Count=199
+PASS  Ascon-MAC    len=199   tlen=16 LWC_MAC_KAT_128_128.txt Count=200
+PASS  Ascon-MAC    len=200   tlen=16 LWC_MAC_KAT_128_128.txt Count=201
+PASS  Ascon-MAC    len=201   tlen=16 LWC_MAC_KAT_128_128.txt Count=202
+PASS  Ascon-MAC    len=202   tlen=16 LWC_MAC_KAT_128_128.txt Count=203
+PASS  Ascon-MAC    len=203   tlen=16 LWC_MAC_KAT_128_128.txt Count=204
+PASS  Ascon-MAC    len=204   tlen=16 LWC_MAC_KAT_128_128.txt Count=205
+PASS  Ascon-MAC    len=205   tlen=16 LWC_MAC_KAT_128_128.txt Count=206
+PASS  Ascon-MAC    len=206   tlen=16 LWC_MAC_KAT_128_128.txt Count=207
+PASS  Ascon-MAC    len=207   tlen=16 LWC_MAC_KAT_128_128.txt Count=208
+PASS  Ascon-MAC    len=208   tlen=16 LWC_MAC_KAT_128_128.txt Count=209
+PASS  Ascon-MAC    len=209   tlen=16 LWC_MAC_KAT_128_128.txt Count=210
+PASS  Ascon-MAC    len=210   tlen=16 LWC_MAC_KAT_128_128.txt Count=211
+PASS  Ascon-MAC    len=211   tlen=16 LWC_MAC_KAT_128_128.txt Count=212
+PASS  Ascon-MAC    len=212   tlen=16 LWC_MAC_KAT_128_128.txt Count=213
+PASS  Ascon-MAC    len=213   tlen=16 LWC_MAC_KAT_128_128.txt Count=214
+PASS  Ascon-MAC    len=214   tlen=16 LWC_MAC_KAT_128_128.txt Count=215
+PASS  Ascon-MAC    len=215   tlen=16 LWC_MAC_KAT_128_128.txt Count=216
+PASS  Ascon-MAC    len=216   tlen=16 LWC_MAC_KAT_128_128.txt Count=217
+PASS  Ascon-MAC    len=217   tlen=16 LWC_MAC_KAT_128_128.txt Count=218
+PASS  Ascon-MAC    len=218   tlen=16 LWC_MAC_KAT_128_128.txt Count=219
+PASS  Ascon-MAC    len=219   tlen=16 LWC_MAC_KAT_128_128.txt Count=220
+PASS  Ascon-MAC    len=220   tlen=16 LWC_MAC_KAT_128_128.txt Count=221
+PASS  Ascon-MAC    len=221   tlen=16 LWC_MAC_KAT_128_128.txt Count=222
+PASS  Ascon-MAC    len=222   tlen=16 LWC_MAC_KAT_128_128.txt Count=223
+PASS  Ascon-MAC    len=223   tlen=16 LWC_MAC_KAT_128_128.txt Count=224
+PASS  Ascon-MAC    len=224   tlen=16 LWC_MAC_KAT_128_128.txt Count=225
+PASS  Ascon-MAC    len=225   tlen=16 LWC_MAC_KAT_128_128.txt Count=226
+PASS  Ascon-MAC    len=226   tlen=16 LWC_MAC_KAT_128_128.txt Count=227
+PASS  Ascon-MAC    len=227   tlen=16 LWC_MAC_KAT_128_128.txt Count=228
+PASS  Ascon-MAC    len=228   tlen=16 LWC_MAC_KAT_128_128.txt Count=229
+PASS  Ascon-MAC    len=229   tlen=16 LWC_MAC_KAT_128_128.txt Count=230
+PASS  Ascon-MAC    len=230   tlen=16 LWC_MAC_KAT_128_128.txt Count=231
+PASS  Ascon-MAC    len=231   tlen=16 LWC_MAC_KAT_128_128.txt Count=232
+PASS  Ascon-MAC    len=232   tlen=16 LWC_MAC_KAT_128_128.txt Count=233
+PASS  Ascon-MAC    len=233   tlen=16 LWC_MAC_KAT_128_128.txt Count=234
+PASS  Ascon-MAC    len=234   tlen=16 LWC_MAC_KAT_128_128.txt Count=235
+PASS  Ascon-MAC    len=235   tlen=16 LWC_MAC_KAT_128_128.txt Count=236
+PASS  Ascon-MAC    len=236   tlen=16 LWC_MAC_KAT_128_128.txt Count=237
+PASS  Ascon-MAC    len=237   tlen=16 LWC_MAC_KAT_128_128.txt Count=238
+PASS  Ascon-MAC    len=238   tlen=16 LWC_MAC_KAT_128_128.txt Count=239
+PASS  Ascon-MAC    len=239   tlen=16 LWC_MAC_KAT_128_128.txt Count=240
+PASS  Ascon-MAC    len=240   tlen=16 LWC_MAC_KAT_128_128.txt Count=241
+PASS  Ascon-MAC    len=241   tlen=16 LWC_MAC_KAT_128_128.txt Count=242
+PASS  Ascon-MAC    len=242   tlen=16 LWC_MAC_KAT_128_128.txt Count=243
+PASS  Ascon-MAC    len=243   tlen=16 LWC_MAC_KAT_128_128.txt Count=244
+PASS  Ascon-MAC    len=244   tlen=16 LWC_MAC_KAT_128_128.txt Count=245
+PASS  Ascon-MAC    len=245   tlen=16 LWC_MAC_KAT_128_128.txt Count=246
+PASS  Ascon-MAC    len=246   tlen=16 LWC_MAC_KAT_128_128.txt Count=247
+PASS  Ascon-MAC    len=247   tlen=16 LWC_MAC_KAT_128_128.txt Count=248
+PASS  Ascon-MAC    len=248   tlen=16 LWC_MAC_KAT_128_128.txt Count=249
+PASS  Ascon-MAC    len=249   tlen=16 LWC_MAC_KAT_128_128.txt Count=250
+PASS  Ascon-MAC    len=250   tlen=16 LWC_MAC_KAT_128_128.txt Count=251
+PASS  Ascon-MAC    len=251   tlen=16 LWC_MAC_KAT_128_128.txt Count=252
+PASS  Ascon-MAC    len=252   tlen=16 LWC_MAC_KAT_128_128.txt Count=253
+PASS  Ascon-MAC    len=253   tlen=16 LWC_MAC_KAT_128_128.txt Count=254
+PASS  Ascon-MAC    len=254   tlen=16 LWC_MAC_KAT_128_128.txt Count=255
+PASS  Ascon-MAC    len=255   tlen=16 LWC_MAC_KAT_128_128.txt Count=256
+PASS  Ascon-MAC    len=256   tlen=16 LWC_MAC_KAT_128_128.txt Count=257
+PASS  Ascon-MAC    len=257   tlen=16 LWC_MAC_KAT_128_128.txt Count=258
+PASS  Ascon-MAC    len=258   tlen=16 LWC_MAC_KAT_128_128.txt Count=259
+PASS  Ascon-MAC    len=259   tlen=16 LWC_MAC_KAT_128_128.txt Count=260
+PASS  Ascon-MAC    len=260   tlen=16 LWC_MAC_KAT_128_128.txt Count=261
+PASS  Ascon-MAC    len=261   tlen=16 LWC_MAC_KAT_128_128.txt Count=262
+PASS  Ascon-MAC    len=262   tlen=16 LWC_MAC_KAT_128_128.txt Count=263
+PASS  Ascon-MAC    len=263   tlen=16 LWC_MAC_KAT_128_128.txt Count=264
+PASS  Ascon-MAC    len=264   tlen=16 LWC_MAC_KAT_128_128.txt Count=265
+PASS  Ascon-MAC    len=265   tlen=16 LWC_MAC_KAT_128_128.txt Count=266
+PASS  Ascon-MAC    len=266   tlen=16 LWC_MAC_KAT_128_128.txt Count=267
+PASS  Ascon-MAC    len=267   tlen=16 LWC_MAC_KAT_128_128.txt Count=268
+PASS  Ascon-MAC    len=268   tlen=16 LWC_MAC_KAT_128_128.txt Count=269
+PASS  Ascon-MAC    len=269   tlen=16 LWC_MAC_KAT_128_128.txt Count=270
+PASS  Ascon-MAC    len=270   tlen=16 LWC_MAC_KAT_128_128.txt Count=271
+PASS  Ascon-MAC    len=271   tlen=16 LWC_MAC_KAT_128_128.txt Count=272
+PASS  Ascon-MAC    len=272   tlen=16 LWC_MAC_KAT_128_128.txt Count=273
+PASS  Ascon-MAC    len=273   tlen=16 LWC_MAC_KAT_128_128.txt Count=274
+PASS  Ascon-MAC    len=274   tlen=16 LWC_MAC_KAT_128_128.txt Count=275
+PASS  Ascon-MAC    len=275   tlen=16 LWC_MAC_KAT_128_128.txt Count=276
+PASS  Ascon-MAC    len=276   tlen=16 LWC_MAC_KAT_128_128.txt Count=277
+PASS  Ascon-MAC    len=277   tlen=16 LWC_MAC_KAT_128_128.txt Count=278
+PASS  Ascon-MAC    len=278   tlen=16 LWC_MAC_KAT_128_128.txt Count=279
+PASS  Ascon-MAC    len=279   tlen=16 LWC_MAC_KAT_128_128.txt Count=280
+PASS  Ascon-MAC    len=280   tlen=16 LWC_MAC_KAT_128_128.txt Count=281
+PASS  Ascon-MAC    len=281   tlen=16 LWC_MAC_KAT_128_128.txt Count=282
+PASS  Ascon-MAC    len=282   tlen=16 LWC_MAC_KAT_128_128.txt Count=283
+PASS  Ascon-MAC    len=283   tlen=16 LWC_MAC_KAT_128_128.txt Count=284
+PASS  Ascon-MAC    len=284   tlen=16 LWC_MAC_KAT_128_128.txt Count=285
+PASS  Ascon-MAC    len=285   tlen=16 LWC_MAC_KAT_128_128.txt Count=286
+PASS  Ascon-MAC    len=286   tlen=16 LWC_MAC_KAT_128_128.txt Count=287
+PASS  Ascon-MAC    len=287   tlen=16 LWC_MAC_KAT_128_128.txt Count=288
+PASS  Ascon-MAC    len=288   tlen=16 LWC_MAC_KAT_128_128.txt Count=289
+PASS  Ascon-MAC    len=289   tlen=16 LWC_MAC_KAT_128_128.txt Count=290
+PASS  Ascon-MAC    len=290   tlen=16 LWC_MAC_KAT_128_128.txt Count=291
+PASS  Ascon-MAC    len=291   tlen=16 LWC_MAC_KAT_128_128.txt Count=292
+PASS  Ascon-MAC    len=292   tlen=16 LWC_MAC_KAT_128_128.txt Count=293
+PASS  Ascon-MAC    len=293   tlen=16 LWC_MAC_KAT_128_128.txt Count=294
+PASS  Ascon-MAC    len=294   tlen=16 LWC_MAC_KAT_128_128.txt Count=295
+PASS  Ascon-MAC    len=295   tlen=16 LWC_MAC_KAT_128_128.txt Count=296
+PASS  Ascon-MAC    len=296   tlen=16 LWC_MAC_KAT_128_128.txt Count=297
+PASS  Ascon-MAC    len=297   tlen=16 LWC_MAC_KAT_128_128.txt Count=298
+PASS  Ascon-MAC    len=298   tlen=16 LWC_MAC_KAT_128_128.txt Count=299
+PASS  Ascon-MAC    len=299   tlen=16 LWC_MAC_KAT_128_128.txt Count=300
+PASS  Ascon-MAC    len=300   tlen=16 LWC_MAC_KAT_128_128.txt Count=301
+PASS  Ascon-MAC    len=301   tlen=16 LWC_MAC_KAT_128_128.txt Count=302
+PASS  Ascon-MAC    len=302   tlen=16 LWC_MAC_KAT_128_128.txt Count=303
+PASS  Ascon-MAC    len=303   tlen=16 LWC_MAC_KAT_128_128.txt Count=304
+PASS  Ascon-MAC    len=304   tlen=16 LWC_MAC_KAT_128_128.txt Count=305
+PASS  Ascon-MAC    len=305   tlen=16 LWC_MAC_KAT_128_128.txt Count=306
+PASS  Ascon-MAC    len=306   tlen=16 LWC_MAC_KAT_128_128.txt Count=307
+PASS  Ascon-MAC    len=307   tlen=16 LWC_MAC_KAT_128_128.txt Count=308
+PASS  Ascon-MAC    len=308   tlen=16 LWC_MAC_KAT_128_128.txt Count=309
+PASS  Ascon-MAC    len=309   tlen=16 LWC_MAC_KAT_128_128.txt Count=310
+PASS  Ascon-MAC    len=310   tlen=16 LWC_MAC_KAT_128_128.txt Count=311
+PASS  Ascon-MAC    len=311   tlen=16 LWC_MAC_KAT_128_128.txt Count=312
+PASS  Ascon-MAC    len=312   tlen=16 LWC_MAC_KAT_128_128.txt Count=313
+PASS  Ascon-MAC    len=313   tlen=16 LWC_MAC_KAT_128_128.txt Count=314
+PASS  Ascon-MAC    len=314   tlen=16 LWC_MAC_KAT_128_128.txt Count=315
+PASS  Ascon-MAC    len=315   tlen=16 LWC_MAC_KAT_128_128.txt Count=316
+PASS  Ascon-MAC    len=316   tlen=16 LWC_MAC_KAT_128_128.txt Count=317
+PASS  Ascon-MAC    len=317   tlen=16 LWC_MAC_KAT_128_128.txt Count=318
+PASS  Ascon-MAC    len=318   tlen=16 LWC_MAC_KAT_128_128.txt Count=319
+PASS  Ascon-MAC    len=319   tlen=16 LWC_MAC_KAT_128_128.txt Count=320
+PASS  Ascon-MAC    len=320   tlen=16 LWC_MAC_KAT_128_128.txt Count=321
+PASS  Ascon-MAC    len=321   tlen=16 LWC_MAC_KAT_128_128.txt Count=322
+PASS  Ascon-MAC    len=322   tlen=16 LWC_MAC_KAT_128_128.txt Count=323
+PASS  Ascon-MAC    len=323   tlen=16 LWC_MAC_KAT_128_128.txt Count=324
+PASS  Ascon-MAC    len=324   tlen=16 LWC_MAC_KAT_128_128.txt Count=325
+PASS  Ascon-MAC    len=325   tlen=16 LWC_MAC_KAT_128_128.txt Count=326
+PASS  Ascon-MAC    len=326   tlen=16 LWC_MAC_KAT_128_128.txt Count=327
+PASS  Ascon-MAC    len=327   tlen=16 LWC_MAC_KAT_128_128.txt Count=328
+PASS  Ascon-MAC    len=328   tlen=16 LWC_MAC_KAT_128_128.txt Count=329
+PASS  Ascon-MAC    len=329   tlen=16 LWC_MAC_KAT_128_128.txt Count=330
+PASS  Ascon-MAC    len=330   tlen=16 LWC_MAC_KAT_128_128.txt Count=331
+PASS  Ascon-MAC    len=331   tlen=16 LWC_MAC_KAT_128_128.txt Count=332
+PASS  Ascon-MAC    len=332   tlen=16 LWC_MAC_KAT_128_128.txt Count=333
+PASS  Ascon-MAC    len=333   tlen=16 LWC_MAC_KAT_128_128.txt Count=334
+PASS  Ascon-MAC    len=334   tlen=16 LWC_MAC_KAT_128_128.txt Count=335
+PASS  Ascon-MAC    len=335   tlen=16 LWC_MAC_KAT_128_128.txt Count=336
+PASS  Ascon-MAC    len=336   tlen=16 LWC_MAC_KAT_128_128.txt Count=337
+PASS  Ascon-MAC    len=337   tlen=16 LWC_MAC_KAT_128_128.txt Count=338
+PASS  Ascon-MAC    len=338   tlen=16 LWC_MAC_KAT_128_128.txt Count=339
+PASS  Ascon-MAC    len=339   tlen=16 LWC_MAC_KAT_128_128.txt Count=340
+PASS  Ascon-MAC    len=340   tlen=16 LWC_MAC_KAT_128_128.txt Count=341
+PASS  Ascon-MAC    len=341   tlen=16 LWC_MAC_KAT_128_128.txt Count=342
+PASS  Ascon-MAC    len=342   tlen=16 LWC_MAC_KAT_128_128.txt Count=343
+PASS  Ascon-MAC    len=343   tlen=16 LWC_MAC_KAT_128_128.txt Count=344
+PASS  Ascon-MAC    len=344   tlen=16 LWC_MAC_KAT_128_128.txt Count=345
+PASS  Ascon-MAC    len=345   tlen=16 LWC_MAC_KAT_128_128.txt Count=346
+PASS  Ascon-MAC    len=346   tlen=16 LWC_MAC_KAT_128_128.txt Count=347
+PASS  Ascon-MAC    len=347   tlen=16 LWC_MAC_KAT_128_128.txt Count=348
+PASS  Ascon-MAC    len=348   tlen=16 LWC_MAC_KAT_128_128.txt Count=349
+PASS  Ascon-MAC    len=349   tlen=16 LWC_MAC_KAT_128_128.txt Count=350
+PASS  Ascon-MAC    len=350   tlen=16 LWC_MAC_KAT_128_128.txt Count=351
+PASS  Ascon-MAC    len=351   tlen=16 LWC_MAC_KAT_128_128.txt Count=352
+PASS  Ascon-MAC    len=352   tlen=16 LWC_MAC_KAT_128_128.txt Count=353
+PASS  Ascon-MAC    len=353   tlen=16 LWC_MAC_KAT_128_128.txt Count=354
+PASS  Ascon-MAC    len=354   tlen=16 LWC_MAC_KAT_128_128.txt Count=355
+PASS  Ascon-MAC    len=355   tlen=16 LWC_MAC_KAT_128_128.txt Count=356
+PASS  Ascon-MAC    len=356   tlen=16 LWC_MAC_KAT_128_128.txt Count=357
+PASS  Ascon-MAC    len=357   tlen=16 LWC_MAC_KAT_128_128.txt Count=358
+PASS  Ascon-MAC    len=358   tlen=16 LWC_MAC_KAT_128_128.txt Count=359
+PASS  Ascon-MAC    len=359   tlen=16 LWC_MAC_KAT_128_128.txt Count=360
+PASS  Ascon-MAC    len=360   tlen=16 LWC_MAC_KAT_128_128.txt Count=361
+PASS  Ascon-MAC    len=361   tlen=16 LWC_MAC_KAT_128_128.txt Count=362
+PASS  Ascon-MAC    len=362   tlen=16 LWC_MAC_KAT_128_128.txt Count=363
+PASS  Ascon-MAC    len=363   tlen=16 LWC_MAC_KAT_128_128.txt Count=364
+PASS  Ascon-MAC    len=364   tlen=16 LWC_MAC_KAT_128_128.txt Count=365
+PASS  Ascon-MAC    len=365   tlen=16 LWC_MAC_KAT_128_128.txt Count=366
+PASS  Ascon-MAC    len=366   tlen=16 LWC_MAC_KAT_128_128.txt Count=367
+PASS  Ascon-MAC    len=367   tlen=16 LWC_MAC_KAT_128_128.txt Count=368
+PASS  Ascon-MAC    len=368   tlen=16 LWC_MAC_KAT_128_128.txt Count=369
+PASS  Ascon-MAC    len=369   tlen=16 LWC_MAC_KAT_128_128.txt Count=370
+PASS  Ascon-MAC    len=370   tlen=16 LWC_MAC_KAT_128_128.txt Count=371
+PASS  Ascon-MAC    len=371   tlen=16 LWC_MAC_KAT_128_128.txt Count=372
+PASS  Ascon-MAC    len=372   tlen=16 LWC_MAC_KAT_128_128.txt Count=373
+PASS  Ascon-MAC    len=373   tlen=16 LWC_MAC_KAT_128_128.txt Count=374
+PASS  Ascon-MAC    len=374   tlen=16 LWC_MAC_KAT_128_128.txt Count=375
+PASS  Ascon-MAC    len=375   tlen=16 LWC_MAC_KAT_128_128.txt Count=376
+PASS  Ascon-MAC    len=376   tlen=16 LWC_MAC_KAT_128_128.txt Count=377
+PASS  Ascon-MAC    len=377   tlen=16 LWC_MAC_KAT_128_128.txt Count=378
+PASS  Ascon-MAC    len=378   tlen=16 LWC_MAC_KAT_128_128.txt Count=379
+PASS  Ascon-MAC    len=379   tlen=16 LWC_MAC_KAT_128_128.txt Count=380
+PASS  Ascon-MAC    len=380   tlen=16 LWC_MAC_KAT_128_128.txt Count=381
+PASS  Ascon-MAC    len=381   tlen=16 LWC_MAC_KAT_128_128.txt Count=382
+PASS  Ascon-MAC    len=382   tlen=16 LWC_MAC_KAT_128_128.txt Count=383
+PASS  Ascon-MAC    len=383   tlen=16 LWC_MAC_KAT_128_128.txt Count=384
+PASS  Ascon-MAC    len=384   tlen=16 LWC_MAC_KAT_128_128.txt Count=385
+PASS  Ascon-MAC    len=385   tlen=16 LWC_MAC_KAT_128_128.txt Count=386
+PASS  Ascon-MAC    len=386   tlen=16 LWC_MAC_KAT_128_128.txt Count=387
+PASS  Ascon-MAC    len=387   tlen=16 LWC_MAC_KAT_128_128.txt Count=388
+PASS  Ascon-MAC    len=388   tlen=16 LWC_MAC_KAT_128_128.txt Count=389
+PASS  Ascon-MAC    len=389   tlen=16 LWC_MAC_KAT_128_128.txt Count=390
+PASS  Ascon-MAC    len=390   tlen=16 LWC_MAC_KAT_128_128.txt Count=391
+PASS  Ascon-MAC    len=391   tlen=16 LWC_MAC_KAT_128_128.txt Count=392
+PASS  Ascon-MAC    len=392   tlen=16 LWC_MAC_KAT_128_128.txt Count=393
+PASS  Ascon-MAC    len=393   tlen=16 LWC_MAC_KAT_128_128.txt Count=394
+PASS  Ascon-MAC    len=394   tlen=16 LWC_MAC_KAT_128_128.txt Count=395
+PASS  Ascon-MAC    len=395   tlen=16 LWC_MAC_KAT_128_128.txt Count=396
+PASS  Ascon-MAC    len=396   tlen=16 LWC_MAC_KAT_128_128.txt Count=397
+PASS  Ascon-MAC    len=397   tlen=16 LWC_MAC_KAT_128_128.txt Count=398
+PASS  Ascon-MAC    len=398   tlen=16 LWC_MAC_KAT_128_128.txt Count=399
+PASS  Ascon-MAC    len=399   tlen=16 LWC_MAC_KAT_128_128.txt Count=400
+PASS  Ascon-MAC    len=400   tlen=16 LWC_MAC_KAT_128_128.txt Count=401
+PASS  Ascon-MAC    len=401   tlen=16 LWC_MAC_KAT_128_128.txt Count=402
+PASS  Ascon-MAC    len=402   tlen=16 LWC_MAC_KAT_128_128.txt Count=403
+PASS  Ascon-MAC    len=403   tlen=16 LWC_MAC_KAT_128_128.txt Count=404
+PASS  Ascon-MAC    len=404   tlen=16 LWC_MAC_KAT_128_128.txt Count=405
+PASS  Ascon-MAC    len=405   tlen=16 LWC_MAC_KAT_128_128.txt Count=406
+PASS  Ascon-MAC    len=406   tlen=16 LWC_MAC_KAT_128_128.txt Count=407
+PASS  Ascon-MAC    len=407   tlen=16 LWC_MAC_KAT_128_128.txt Count=408
+PASS  Ascon-MAC    len=408   tlen=16 LWC_MAC_KAT_128_128.txt Count=409
+PASS  Ascon-MAC    len=409   tlen=16 LWC_MAC_KAT_128_128.txt Count=410
+PASS  Ascon-MAC    len=410   tlen=16 LWC_MAC_KAT_128_128.txt Count=411
+PASS  Ascon-MAC    len=411   tlen=16 LWC_MAC_KAT_128_128.txt Count=412
+PASS  Ascon-MAC    len=412   tlen=16 LWC_MAC_KAT_128_128.txt Count=413
+PASS  Ascon-MAC    len=413   tlen=16 LWC_MAC_KAT_128_128.txt Count=414
+PASS  Ascon-MAC    len=414   tlen=16 LWC_MAC_KAT_128_128.txt Count=415
+PASS  Ascon-MAC    len=415   tlen=16 LWC_MAC_KAT_128_128.txt Count=416
+PASS  Ascon-MAC    len=416   tlen=16 LWC_MAC_KAT_128_128.txt Count=417
+PASS  Ascon-MAC    len=417   tlen=16 LWC_MAC_KAT_128_128.txt Count=418
+PASS  Ascon-MAC    len=418   tlen=16 LWC_MAC_KAT_128_128.txt Count=419
+PASS  Ascon-MAC    len=419   tlen=16 LWC_MAC_KAT_128_128.txt Count=420
+PASS  Ascon-MAC    len=420   tlen=16 LWC_MAC_KAT_128_128.txt Count=421
+PASS  Ascon-MAC    len=421   tlen=16 LWC_MAC_KAT_128_128.txt Count=422
+PASS  Ascon-MAC    len=422   tlen=16 LWC_MAC_KAT_128_128.txt Count=423
+PASS  Ascon-MAC    len=423   tlen=16 LWC_MAC_KAT_128_128.txt Count=424
+PASS  Ascon-MAC    len=424   tlen=16 LWC_MAC_KAT_128_128.txt Count=425
+PASS  Ascon-MAC    len=425   tlen=16 LWC_MAC_KAT_128_128.txt Count=426
+PASS  Ascon-MAC    len=426   tlen=16 LWC_MAC_KAT_128_128.txt Count=427
+PASS  Ascon-MAC    len=427   tlen=16 LWC_MAC_KAT_128_128.txt Count=428
+PASS  Ascon-MAC    len=428   tlen=16 LWC_MAC_KAT_128_128.txt Count=429
+PASS  Ascon-MAC    len=429   tlen=16 LWC_MAC_KAT_128_128.txt Count=430
+PASS  Ascon-MAC    len=430   tlen=16 LWC_MAC_KAT_128_128.txt Count=431
+PASS  Ascon-MAC    len=431   tlen=16 LWC_MAC_KAT_128_128.txt Count=432
+PASS  Ascon-MAC    len=432   tlen=16 LWC_MAC_KAT_128_128.txt Count=433
+PASS  Ascon-MAC    len=433   tlen=16 LWC_MAC_KAT_128_128.txt Count=434
+PASS  Ascon-MAC    len=434   tlen=16 LWC_MAC_KAT_128_128.txt Count=435
+PASS  Ascon-MAC    len=435   tlen=16 LWC_MAC_KAT_128_128.txt Count=436
+PASS  Ascon-MAC    len=436   tlen=16 LWC_MAC_KAT_128_128.txt Count=437
+PASS  Ascon-MAC    len=437   tlen=16 LWC_MAC_KAT_128_128.txt Count=438
+PASS  Ascon-MAC    len=438   tlen=16 LWC_MAC_KAT_128_128.txt Count=439
+PASS  Ascon-MAC    len=439   tlen=16 LWC_MAC_KAT_128_128.txt Count=440
+PASS  Ascon-MAC    len=440   tlen=16 LWC_MAC_KAT_128_128.txt Count=441
+PASS  Ascon-MAC    len=441   tlen=16 LWC_MAC_KAT_128_128.txt Count=442
+PASS  Ascon-MAC    len=442   tlen=16 LWC_MAC_KAT_128_128.txt Count=443
+PASS  Ascon-MAC    len=443   tlen=16 LWC_MAC_KAT_128_128.txt Count=444
+PASS  Ascon-MAC    len=444   tlen=16 LWC_MAC_KAT_128_128.txt Count=445
+PASS  Ascon-MAC    len=445   tlen=16 LWC_MAC_KAT_128_128.txt Count=446
+PASS  Ascon-MAC    len=446   tlen=16 LWC_MAC_KAT_128_128.txt Count=447
+PASS  Ascon-MAC    len=447   tlen=16 LWC_MAC_KAT_128_128.txt Count=448
+PASS  Ascon-MAC    len=448   tlen=16 LWC_MAC_KAT_128_128.txt Count=449
+PASS  Ascon-MAC    len=449   tlen=16 LWC_MAC_KAT_128_128.txt Count=450
+PASS  Ascon-MAC    len=450   tlen=16 LWC_MAC_KAT_128_128.txt Count=451
+PASS  Ascon-MAC    len=451   tlen=16 LWC_MAC_KAT_128_128.txt Count=452
+PASS  Ascon-MAC    len=452   tlen=16 LWC_MAC_KAT_128_128.txt Count=453
+PASS  Ascon-MAC    len=453   tlen=16 LWC_MAC_KAT_128_128.txt Count=454
+PASS  Ascon-MAC    len=454   tlen=16 LWC_MAC_KAT_128_128.txt Count=455
+PASS  Ascon-MAC    len=455   tlen=16 LWC_MAC_KAT_128_128.txt Count=456
+PASS  Ascon-MAC    len=456   tlen=16 LWC_MAC_KAT_128_128.txt Count=457
+PASS  Ascon-MAC    len=457   tlen=16 LWC_MAC_KAT_128_128.txt Count=458
+PASS  Ascon-MAC    len=458   tlen=16 LWC_MAC_KAT_128_128.txt Count=459
+PASS  Ascon-MAC    len=459   tlen=16 LWC_MAC_KAT_128_128.txt Count=460
+PASS  Ascon-MAC    len=460   tlen=16 LWC_MAC_KAT_128_128.txt Count=461
+PASS  Ascon-MAC    len=461   tlen=16 LWC_MAC_KAT_128_128.txt Count=462
+PASS  Ascon-MAC    len=462   tlen=16 LWC_MAC_KAT_128_128.txt Count=463
+PASS  Ascon-MAC    len=463   tlen=16 LWC_MAC_KAT_128_128.txt Count=464
+PASS  Ascon-MAC    len=464   tlen=16 LWC_MAC_KAT_128_128.txt Count=465
+PASS  Ascon-MAC    len=465   tlen=16 LWC_MAC_KAT_128_128.txt Count=466
+PASS  Ascon-MAC    len=466   tlen=16 LWC_MAC_KAT_128_128.txt Count=467
+PASS  Ascon-MAC    len=467   tlen=16 LWC_MAC_KAT_128_128.txt Count=468
+PASS  Ascon-MAC    len=468   tlen=16 LWC_MAC_KAT_128_128.txt Count=469
+PASS  Ascon-MAC    len=469   tlen=16 LWC_MAC_KAT_128_128.txt Count=470
+PASS  Ascon-MAC    len=470   tlen=16 LWC_MAC_KAT_128_128.txt Count=471
+PASS  Ascon-MAC    len=471   tlen=16 LWC_MAC_KAT_128_128.txt Count=472
+PASS  Ascon-MAC    len=472   tlen=16 LWC_MAC_KAT_128_128.txt Count=473
+PASS  Ascon-MAC    len=473   tlen=16 LWC_MAC_KAT_128_128.txt Count=474
+PASS  Ascon-MAC    len=474   tlen=16 LWC_MAC_KAT_128_128.txt Count=475
+PASS  Ascon-MAC    len=475   tlen=16 LWC_MAC_KAT_128_128.txt Count=476
+PASS  Ascon-MAC    len=476   tlen=16 LWC_MAC_KAT_128_128.txt Count=477
+PASS  Ascon-MAC    len=477   tlen=16 LWC_MAC_KAT_128_128.txt Count=478
+PASS  Ascon-MAC    len=478   tlen=16 LWC_MAC_KAT_128_128.txt Count=479
+PASS  Ascon-MAC    len=479   tlen=16 LWC_MAC_KAT_128_128.txt Count=480
+PASS  Ascon-MAC    len=480   tlen=16 LWC_MAC_KAT_128_128.txt Count=481
+PASS  Ascon-MAC    len=481   tlen=16 LWC_MAC_KAT_128_128.txt Count=482
+PASS  Ascon-MAC    len=482   tlen=16 LWC_MAC_KAT_128_128.txt Count=483
+PASS  Ascon-MAC    len=483   tlen=16 LWC_MAC_KAT_128_128.txt Count=484
+PASS  Ascon-MAC    len=484   tlen=16 LWC_MAC_KAT_128_128.txt Count=485
+PASS  Ascon-MAC    len=485   tlen=16 LWC_MAC_KAT_128_128.txt Count=486
+PASS  Ascon-MAC    len=486   tlen=16 LWC_MAC_KAT_128_128.txt Count=487
+PASS  Ascon-MAC    len=487   tlen=16 LWC_MAC_KAT_128_128.txt Count=488
+PASS  Ascon-MAC    len=488   tlen=16 LWC_MAC_KAT_128_128.txt Count=489
+PASS  Ascon-MAC    len=489   tlen=16 LWC_MAC_KAT_128_128.txt Count=490
+PASS  Ascon-MAC    len=490   tlen=16 LWC_MAC_KAT_128_128.txt Count=491
+PASS  Ascon-MAC    len=491   tlen=16 LWC_MAC_KAT_128_128.txt Count=492
+PASS  Ascon-MAC    len=492   tlen=16 LWC_MAC_KAT_128_128.txt Count=493
+PASS  Ascon-MAC    len=493   tlen=16 LWC_MAC_KAT_128_128.txt Count=494
+PASS  Ascon-MAC    len=494   tlen=16 LWC_MAC_KAT_128_128.txt Count=495
+PASS  Ascon-MAC    len=495   tlen=16 LWC_MAC_KAT_128_128.txt Count=496
+PASS  Ascon-MAC    len=496   tlen=16 LWC_MAC_KAT_128_128.txt Count=497
+PASS  Ascon-MAC    len=497   tlen=16 LWC_MAC_KAT_128_128.txt Count=498
+PASS  Ascon-MAC    len=498   tlen=16 LWC_MAC_KAT_128_128.txt Count=499
+PASS  Ascon-MAC    len=499   tlen=16 LWC_MAC_KAT_128_128.txt Count=500
+PASS  Ascon-MAC    len=500   tlen=16 LWC_MAC_KAT_128_128.txt Count=501
+PASS  Ascon-MAC    len=501   tlen=16 LWC_MAC_KAT_128_128.txt Count=502
+PASS  Ascon-MAC    len=502   tlen=16 LWC_MAC_KAT_128_128.txt Count=503
+PASS  Ascon-MAC    len=503   tlen=16 LWC_MAC_KAT_128_128.txt Count=504
+PASS  Ascon-MAC    len=504   tlen=16 LWC_MAC_KAT_128_128.txt Count=505
+PASS  Ascon-MAC    len=505   tlen=16 LWC_MAC_KAT_128_128.txt Count=506
+PASS  Ascon-MAC    len=506   tlen=16 LWC_MAC_KAT_128_128.txt Count=507
+PASS  Ascon-MAC    len=507   tlen=16 LWC_MAC_KAT_128_128.txt Count=508
+PASS  Ascon-MAC    len=508   tlen=16 LWC_MAC_KAT_128_128.txt Count=509
+PASS  Ascon-MAC    len=509   tlen=16 LWC_MAC_KAT_128_128.txt Count=510
+PASS  Ascon-MAC    len=510   tlen=16 LWC_MAC_KAT_128_128.txt Count=511
+PASS  Ascon-MAC    len=511   tlen=16 LWC_MAC_KAT_128_128.txt Count=512
+PASS  Ascon-MAC    len=512   tlen=16 LWC_MAC_KAT_128_128.txt Count=513
+PASS  Ascon-MAC    len=513   tlen=16 LWC_MAC_KAT_128_128.txt Count=514
+PASS  Ascon-MAC    len=514   tlen=16 LWC_MAC_KAT_128_128.txt Count=515
+PASS  Ascon-MAC    len=515   tlen=16 LWC_MAC_KAT_128_128.txt Count=516
+PASS  Ascon-MAC    len=516   tlen=16 LWC_MAC_KAT_128_128.txt Count=517
+PASS  Ascon-MAC    len=517   tlen=16 LWC_MAC_KAT_128_128.txt Count=518
+PASS  Ascon-MAC    len=518   tlen=16 LWC_MAC_KAT_128_128.txt Count=519
+PASS  Ascon-MAC    len=519   tlen=16 LWC_MAC_KAT_128_128.txt Count=520
+PASS  Ascon-MAC    len=520   tlen=16 LWC_MAC_KAT_128_128.txt Count=521
+PASS  Ascon-MAC    len=521   tlen=16 LWC_MAC_KAT_128_128.txt Count=522
+PASS  Ascon-MAC    len=522   tlen=16 LWC_MAC_KAT_128_128.txt Count=523
+PASS  Ascon-MAC    len=523   tlen=16 LWC_MAC_KAT_128_128.txt Count=524
+PASS  Ascon-MAC    len=524   tlen=16 LWC_MAC_KAT_128_128.txt Count=525
+PASS  Ascon-MAC    len=525   tlen=16 LWC_MAC_KAT_128_128.txt Count=526
+PASS  Ascon-MAC    len=526   tlen=16 LWC_MAC_KAT_128_128.txt Count=527
+PASS  Ascon-MAC    len=527   tlen=16 LWC_MAC_KAT_128_128.txt Count=528
+PASS  Ascon-MAC    len=528   tlen=16 LWC_MAC_KAT_128_128.txt Count=529
+PASS  Ascon-MAC    len=529   tlen=16 LWC_MAC_KAT_128_128.txt Count=530
+PASS  Ascon-MAC    len=530   tlen=16 LWC_MAC_KAT_128_128.txt Count=531
+PASS  Ascon-MAC    len=531   tlen=16 LWC_MAC_KAT_128_128.txt Count=532
+PASS  Ascon-MAC    len=532   tlen=16 LWC_MAC_KAT_128_128.txt Count=533
+PASS  Ascon-MAC    len=533   tlen=16 LWC_MAC_KAT_128_128.txt Count=534
+PASS  Ascon-MAC    len=534   tlen=16 LWC_MAC_KAT_128_128.txt Count=535
+PASS  Ascon-MAC    len=535   tlen=16 LWC_MAC_KAT_128_128.txt Count=536
+PASS  Ascon-MAC    len=536   tlen=16 LWC_MAC_KAT_128_128.txt Count=537
+PASS  Ascon-MAC    len=537   tlen=16 LWC_MAC_KAT_128_128.txt Count=538
+PASS  Ascon-MAC    len=538   tlen=16 LWC_MAC_KAT_128_128.txt Count=539
+PASS  Ascon-MAC    len=539   tlen=16 LWC_MAC_KAT_128_128.txt Count=540
+PASS  Ascon-MAC    len=540   tlen=16 LWC_MAC_KAT_128_128.txt Count=541
+PASS  Ascon-MAC    len=541   tlen=16 LWC_MAC_KAT_128_128.txt Count=542
+PASS  Ascon-MAC    len=542   tlen=16 LWC_MAC_KAT_128_128.txt Count=543
+PASS  Ascon-MAC    len=543   tlen=16 LWC_MAC_KAT_128_128.txt Count=544
+PASS  Ascon-MAC    len=544   tlen=16 LWC_MAC_KAT_128_128.txt Count=545
+PASS  Ascon-MAC    len=545   tlen=16 LWC_MAC_KAT_128_128.txt Count=546
+PASS  Ascon-MAC    len=546   tlen=16 LWC_MAC_KAT_128_128.txt Count=547
+PASS  Ascon-MAC    len=547   tlen=16 LWC_MAC_KAT_128_128.txt Count=548
+PASS  Ascon-MAC    len=548   tlen=16 LWC_MAC_KAT_128_128.txt Count=549
+PASS  Ascon-MAC    len=549   tlen=16 LWC_MAC_KAT_128_128.txt Count=550
+PASS  Ascon-MAC    len=550   tlen=16 LWC_MAC_KAT_128_128.txt Count=551
+PASS  Ascon-MAC    len=551   tlen=16 LWC_MAC_KAT_128_128.txt Count=552
+PASS  Ascon-MAC    len=552   tlen=16 LWC_MAC_KAT_128_128.txt Count=553
+PASS  Ascon-MAC    len=553   tlen=16 LWC_MAC_KAT_128_128.txt Count=554
+PASS  Ascon-MAC    len=554   tlen=16 LWC_MAC_KAT_128_128.txt Count=555
+PASS  Ascon-MAC    len=555   tlen=16 LWC_MAC_KAT_128_128.txt Count=556
+PASS  Ascon-MAC    len=556   tlen=16 LWC_MAC_KAT_128_128.txt Count=557
+PASS  Ascon-MAC    len=557   tlen=16 LWC_MAC_KAT_128_128.txt Count=558
+PASS  Ascon-MAC    len=558   tlen=16 LWC_MAC_KAT_128_128.txt Count=559
+PASS  Ascon-MAC    len=559   tlen=16 LWC_MAC_KAT_128_128.txt Count=560
+PASS  Ascon-MAC    len=560   tlen=16 LWC_MAC_KAT_128_128.txt Count=561
+PASS  Ascon-MAC    len=561   tlen=16 LWC_MAC_KAT_128_128.txt Count=562
+PASS  Ascon-MAC    len=562   tlen=16 LWC_MAC_KAT_128_128.txt Count=563
+PASS  Ascon-MAC    len=563   tlen=16 LWC_MAC_KAT_128_128.txt Count=564
+PASS  Ascon-MAC    len=564   tlen=16 LWC_MAC_KAT_128_128.txt Count=565
+PASS  Ascon-MAC    len=565   tlen=16 LWC_MAC_KAT_128_128.txt Count=566
+PASS  Ascon-MAC    len=566   tlen=16 LWC_MAC_KAT_128_128.txt Count=567
+PASS  Ascon-MAC    len=567   tlen=16 LWC_MAC_KAT_128_128.txt Count=568
+PASS  Ascon-MAC    len=568   tlen=16 LWC_MAC_KAT_128_128.txt Count=569
+PASS  Ascon-MAC    len=569   tlen=16 LWC_MAC_KAT_128_128.txt Count=570
+PASS  Ascon-MAC    len=570   tlen=16 LWC_MAC_KAT_128_128.txt Count=571
+PASS  Ascon-MAC    len=571   tlen=16 LWC_MAC_KAT_128_128.txt Count=572
+PASS  Ascon-MAC    len=572   tlen=16 LWC_MAC_KAT_128_128.txt Count=573
+PASS  Ascon-MAC    len=573   tlen=16 LWC_MAC_KAT_128_128.txt Count=574
+PASS  Ascon-MAC    len=574   tlen=16 LWC_MAC_KAT_128_128.txt Count=575
+PASS  Ascon-MAC    len=575   tlen=16 LWC_MAC_KAT_128_128.txt Count=576
+PASS  Ascon-MAC    len=576   tlen=16 LWC_MAC_KAT_128_128.txt Count=577
+PASS  Ascon-MAC    len=577   tlen=16 LWC_MAC_KAT_128_128.txt Count=578
+PASS  Ascon-MAC    len=578   tlen=16 LWC_MAC_KAT_128_128.txt Count=579
+PASS  Ascon-MAC    len=579   tlen=16 LWC_MAC_KAT_128_128.txt Count=580
+PASS  Ascon-MAC    len=580   tlen=16 LWC_MAC_KAT_128_128.txt Count=581
+PASS  Ascon-MAC    len=581   tlen=16 LWC_MAC_KAT_128_128.txt Count=582
+PASS  Ascon-MAC    len=582   tlen=16 LWC_MAC_KAT_128_128.txt Count=583
+PASS  Ascon-MAC    len=583   tlen=16 LWC_MAC_KAT_128_128.txt Count=584
+PASS  Ascon-MAC    len=584   tlen=16 LWC_MAC_KAT_128_128.txt Count=585
+PASS  Ascon-MAC    len=585   tlen=16 LWC_MAC_KAT_128_128.txt Count=586
+PASS  Ascon-MAC    len=586   tlen=16 LWC_MAC_KAT_128_128.txt Count=587
+PASS  Ascon-MAC    len=587   tlen=16 LWC_MAC_KAT_128_128.txt Count=588
+PASS  Ascon-MAC    len=588   tlen=16 LWC_MAC_KAT_128_128.txt Count=589
+PASS  Ascon-MAC    len=589   tlen=16 LWC_MAC_KAT_128_128.txt Count=590
+PASS  Ascon-MAC    len=590   tlen=16 LWC_MAC_KAT_128_128.txt Count=591
+PASS  Ascon-MAC    len=591   tlen=16 LWC_MAC_KAT_128_128.txt Count=592
+PASS  Ascon-MAC    len=592   tlen=16 LWC_MAC_KAT_128_128.txt Count=593
+PASS  Ascon-MAC    len=593   tlen=16 LWC_MAC_KAT_128_128.txt Count=594
+PASS  Ascon-MAC    len=594   tlen=16 LWC_MAC_KAT_128_128.txt Count=595
+PASS  Ascon-MAC    len=595   tlen=16 LWC_MAC_KAT_128_128.txt Count=596
+PASS  Ascon-MAC    len=596   tlen=16 LWC_MAC_KAT_128_128.txt Count=597
+PASS  Ascon-MAC    len=597   tlen=16 LWC_MAC_KAT_128_128.txt Count=598
+PASS  Ascon-MAC    len=598   tlen=16 LWC_MAC_KAT_128_128.txt Count=599
+PASS  Ascon-MAC    len=599   tlen=16 LWC_MAC_KAT_128_128.txt Count=600
+PASS  Ascon-MAC    len=600   tlen=16 LWC_MAC_KAT_128_128.txt Count=601
+PASS  Ascon-MAC    len=601   tlen=16 LWC_MAC_KAT_128_128.txt Count=602
+PASS  Ascon-MAC    len=602   tlen=16 LWC_MAC_KAT_128_128.txt Count=603
+PASS  Ascon-MAC    len=603   tlen=16 LWC_MAC_KAT_128_128.txt Count=604
+PASS  Ascon-MAC    len=604   tlen=16 LWC_MAC_KAT_128_128.txt Count=605
+PASS  Ascon-MAC    len=605   tlen=16 LWC_MAC_KAT_128_128.txt Count=606
+PASS  Ascon-MAC    len=606   tlen=16 LWC_MAC_KAT_128_128.txt Count=607
+PASS  Ascon-MAC    len=607   tlen=16 LWC_MAC_KAT_128_128.txt Count=608
+PASS  Ascon-MAC    len=608   tlen=16 LWC_MAC_KAT_128_128.txt Count=609
+PASS  Ascon-MAC    len=609   tlen=16 LWC_MAC_KAT_128_128.txt Count=610
+PASS  Ascon-MAC    len=610   tlen=16 LWC_MAC_KAT_128_128.txt Count=611
+PASS  Ascon-MAC    len=611   tlen=16 LWC_MAC_KAT_128_128.txt Count=612
+PASS  Ascon-MAC    len=612   tlen=16 LWC_MAC_KAT_128_128.txt Count=613
+PASS  Ascon-MAC    len=613   tlen=16 LWC_MAC_KAT_128_128.txt Count=614
+PASS  Ascon-MAC    len=614   tlen=16 LWC_MAC_KAT_128_128.txt Count=615
+PASS  Ascon-MAC    len=615   tlen=16 LWC_MAC_KAT_128_128.txt Count=616
+PASS  Ascon-MAC    len=616   tlen=16 LWC_MAC_KAT_128_128.txt Count=617
+PASS  Ascon-MAC    len=617   tlen=16 LWC_MAC_KAT_128_128.txt Count=618
+PASS  Ascon-MAC    len=618   tlen=16 LWC_MAC_KAT_128_128.txt Count=619
+PASS  Ascon-MAC    len=619   tlen=16 LWC_MAC_KAT_128_128.txt Count=620
+PASS  Ascon-MAC    len=620   tlen=16 LWC_MAC_KAT_128_128.txt Count=621
+PASS  Ascon-MAC    len=621   tlen=16 LWC_MAC_KAT_128_128.txt Count=622
+PASS  Ascon-MAC    len=622   tlen=16 LWC_MAC_KAT_128_128.txt Count=623
+PASS  Ascon-MAC    len=623   tlen=16 LWC_MAC_KAT_128_128.txt Count=624
+PASS  Ascon-MAC    len=624   tlen=16 LWC_MAC_KAT_128_128.txt Count=625
+PASS  Ascon-MAC    len=625   tlen=16 LWC_MAC_KAT_128_128.txt Count=626
+PASS  Ascon-MAC    len=626   tlen=16 LWC_MAC_KAT_128_128.txt Count=627
+PASS  Ascon-MAC    len=627   tlen=16 LWC_MAC_KAT_128_128.txt Count=628
+PASS  Ascon-MAC    len=628   tlen=16 LWC_MAC_KAT_128_128.txt Count=629
+PASS  Ascon-MAC    len=629   tlen=16 LWC_MAC_KAT_128_128.txt Count=630
+PASS  Ascon-MAC    len=630   tlen=16 LWC_MAC_KAT_128_128.txt Count=631
+PASS  Ascon-MAC    len=631   tlen=16 LWC_MAC_KAT_128_128.txt Count=632
+PASS  Ascon-MAC    len=632   tlen=16 LWC_MAC_KAT_128_128.txt Count=633
+PASS  Ascon-MAC    len=633   tlen=16 LWC_MAC_KAT_128_128.txt Count=634
+PASS  Ascon-MAC    len=634   tlen=16 LWC_MAC_KAT_128_128.txt Count=635
+PASS  Ascon-MAC    len=635   tlen=16 LWC_MAC_KAT_128_128.txt Count=636
+PASS  Ascon-MAC    len=636   tlen=16 LWC_MAC_KAT_128_128.txt Count=637
+PASS  Ascon-MAC    len=637   tlen=16 LWC_MAC_KAT_128_128.txt Count=638
+PASS  Ascon-MAC    len=638   tlen=16 LWC_MAC_KAT_128_128.txt Count=639
+PASS  Ascon-MAC    len=639   tlen=16 LWC_MAC_KAT_128_128.txt Count=640
+PASS  Ascon-MAC    len=640   tlen=16 LWC_MAC_KAT_128_128.txt Count=641
+PASS  Ascon-MAC    len=641   tlen=16 LWC_MAC_KAT_128_128.txt Count=642
+PASS  Ascon-MAC    len=642   tlen=16 LWC_MAC_KAT_128_128.txt Count=643
+PASS  Ascon-MAC    len=643   tlen=16 LWC_MAC_KAT_128_128.txt Count=644
+PASS  Ascon-MAC    len=644   tlen=16 LWC_MAC_KAT_128_128.txt Count=645
+PASS  Ascon-MAC    len=645   tlen=16 LWC_MAC_KAT_128_128.txt Count=646
+PASS  Ascon-MAC    len=646   tlen=16 LWC_MAC_KAT_128_128.txt Count=647
+PASS  Ascon-MAC    len=647   tlen=16 LWC_MAC_KAT_128_128.txt Count=648
+PASS  Ascon-MAC    len=648   tlen=16 LWC_MAC_KAT_128_128.txt Count=649
+PASS  Ascon-MAC    len=649   tlen=16 LWC_MAC_KAT_128_128.txt Count=650
+PASS  Ascon-MAC    len=650   tlen=16 LWC_MAC_KAT_128_128.txt Count=651
+PASS  Ascon-MAC    len=651   tlen=16 LWC_MAC_KAT_128_128.txt Count=652
+PASS  Ascon-MAC    len=652   tlen=16 LWC_MAC_KAT_128_128.txt Count=653
+PASS  Ascon-MAC    len=653   tlen=16 LWC_MAC_KAT_128_128.txt Count=654
+PASS  Ascon-MAC    len=654   tlen=16 LWC_MAC_KAT_128_128.txt Count=655
+PASS  Ascon-MAC    len=655   tlen=16 LWC_MAC_KAT_128_128.txt Count=656
+PASS  Ascon-MAC    len=656   tlen=16 LWC_MAC_KAT_128_128.txt Count=657
+PASS  Ascon-MAC    len=657   tlen=16 LWC_MAC_KAT_128_128.txt Count=658
+PASS  Ascon-MAC    len=658   tlen=16 LWC_MAC_KAT_128_128.txt Count=659
+PASS  Ascon-MAC    len=659   tlen=16 LWC_MAC_KAT_128_128.txt Count=660
+PASS  Ascon-MAC    len=660   tlen=16 LWC_MAC_KAT_128_128.txt Count=661
+PASS  Ascon-MAC    len=661   tlen=16 LWC_MAC_KAT_128_128.txt Count=662
+PASS  Ascon-MAC    len=662   tlen=16 LWC_MAC_KAT_128_128.txt Count=663
+PASS  Ascon-MAC    len=663   tlen=16 LWC_MAC_KAT_128_128.txt Count=664
+PASS  Ascon-MAC    len=664   tlen=16 LWC_MAC_KAT_128_128.txt Count=665
+PASS  Ascon-MAC    len=665   tlen=16 LWC_MAC_KAT_128_128.txt Count=666
+PASS  Ascon-MAC    len=666   tlen=16 LWC_MAC_KAT_128_128.txt Count=667
+PASS  Ascon-MAC    len=667   tlen=16 LWC_MAC_KAT_128_128.txt Count=668
+PASS  Ascon-MAC    len=668   tlen=16 LWC_MAC_KAT_128_128.txt Count=669
+PASS  Ascon-MAC    len=669   tlen=16 LWC_MAC_KAT_128_128.txt Count=670
+PASS  Ascon-MAC    len=670   tlen=16 LWC_MAC_KAT_128_128.txt Count=671
+PASS  Ascon-MAC    len=671   tlen=16 LWC_MAC_KAT_128_128.txt Count=672
+PASS  Ascon-MAC    len=672   tlen=16 LWC_MAC_KAT_128_128.txt Count=673
+PASS  Ascon-MAC    len=673   tlen=16 LWC_MAC_KAT_128_128.txt Count=674
+PASS  Ascon-MAC    len=674   tlen=16 LWC_MAC_KAT_128_128.txt Count=675
+PASS  Ascon-MAC    len=675   tlen=16 LWC_MAC_KAT_128_128.txt Count=676
+PASS  Ascon-MAC    len=676   tlen=16 LWC_MAC_KAT_128_128.txt Count=677
+PASS  Ascon-MAC    len=677   tlen=16 LWC_MAC_KAT_128_128.txt Count=678
+PASS  Ascon-MAC    len=678   tlen=16 LWC_MAC_KAT_128_128.txt Count=679
+PASS  Ascon-MAC    len=679   tlen=16 LWC_MAC_KAT_128_128.txt Count=680
+PASS  Ascon-MAC    len=680   tlen=16 LWC_MAC_KAT_128_128.txt Count=681
+PASS  Ascon-MAC    len=681   tlen=16 LWC_MAC_KAT_128_128.txt Count=682
+PASS  Ascon-MAC    len=682   tlen=16 LWC_MAC_KAT_128_128.txt Count=683
+PASS  Ascon-MAC    len=683   tlen=16 LWC_MAC_KAT_128_128.txt Count=684
+PASS  Ascon-MAC    len=684   tlen=16 LWC_MAC_KAT_128_128.txt Count=685
+PASS  Ascon-MAC    len=685   tlen=16 LWC_MAC_KAT_128_128.txt Count=686
+PASS  Ascon-MAC    len=686   tlen=16 LWC_MAC_KAT_128_128.txt Count=687
+PASS  Ascon-MAC    len=687   tlen=16 LWC_MAC_KAT_128_128.txt Count=688
+PASS  Ascon-MAC    len=688   tlen=16 LWC_MAC_KAT_128_128.txt Count=689
+PASS  Ascon-MAC    len=689   tlen=16 LWC_MAC_KAT_128_128.txt Count=690
+PASS  Ascon-MAC    len=690   tlen=16 LWC_MAC_KAT_128_128.txt Count=691
+PASS  Ascon-MAC    len=691   tlen=16 LWC_MAC_KAT_128_128.txt Count=692
+PASS  Ascon-MAC    len=692   tlen=16 LWC_MAC_KAT_128_128.txt Count=693
+PASS  Ascon-MAC    len=693   tlen=16 LWC_MAC_KAT_128_128.txt Count=694
+PASS  Ascon-MAC    len=694   tlen=16 LWC_MAC_KAT_128_128.txt Count=695
+PASS  Ascon-MAC    len=695   tlen=16 LWC_MAC_KAT_128_128.txt Count=696
+PASS  Ascon-MAC    len=696   tlen=16 LWC_MAC_KAT_128_128.txt Count=697
+PASS  Ascon-MAC    len=697   tlen=16 LWC_MAC_KAT_128_128.txt Count=698
+PASS  Ascon-MAC    len=698   tlen=16 LWC_MAC_KAT_128_128.txt Count=699
+PASS  Ascon-MAC    len=699   tlen=16 LWC_MAC_KAT_128_128.txt Count=700
+PASS  Ascon-MAC    len=700   tlen=16 LWC_MAC_KAT_128_128.txt Count=701
+PASS  Ascon-MAC    len=701   tlen=16 LWC_MAC_KAT_128_128.txt Count=702
+PASS  Ascon-MAC    len=702   tlen=16 LWC_MAC_KAT_128_128.txt Count=703
+PASS  Ascon-MAC    len=703   tlen=16 LWC_MAC_KAT_128_128.txt Count=704
+PASS  Ascon-MAC    len=704   tlen=16 LWC_MAC_KAT_128_128.txt Count=705
+PASS  Ascon-MAC    len=705   tlen=16 LWC_MAC_KAT_128_128.txt Count=706
+PASS  Ascon-MAC    len=706   tlen=16 LWC_MAC_KAT_128_128.txt Count=707
+PASS  Ascon-MAC    len=707   tlen=16 LWC_MAC_KAT_128_128.txt Count=708
+PASS  Ascon-MAC    len=708   tlen=16 LWC_MAC_KAT_128_128.txt Count=709
+PASS  Ascon-MAC    len=709   tlen=16 LWC_MAC_KAT_128_128.txt Count=710
+PASS  Ascon-MAC    len=710   tlen=16 LWC_MAC_KAT_128_128.txt Count=711
+PASS  Ascon-MAC    len=711   tlen=16 LWC_MAC_KAT_128_128.txt Count=712
+PASS  Ascon-MAC    len=712   tlen=16 LWC_MAC_KAT_128_128.txt Count=713
+PASS  Ascon-MAC    len=713   tlen=16 LWC_MAC_KAT_128_128.txt Count=714
+PASS  Ascon-MAC    len=714   tlen=16 LWC_MAC_KAT_128_128.txt Count=715
+PASS  Ascon-MAC    len=715   tlen=16 LWC_MAC_KAT_128_128.txt Count=716
+PASS  Ascon-MAC    len=716   tlen=16 LWC_MAC_KAT_128_128.txt Count=717
+PASS  Ascon-MAC    len=717   tlen=16 LWC_MAC_KAT_128_128.txt Count=718
+PASS  Ascon-MAC    len=718   tlen=16 LWC_MAC_KAT_128_128.txt Count=719
+PASS  Ascon-MAC    len=719   tlen=16 LWC_MAC_KAT_128_128.txt Count=720
+PASS  Ascon-MAC    len=720   tlen=16 LWC_MAC_KAT_128_128.txt Count=721
+PASS  Ascon-MAC    len=721   tlen=16 LWC_MAC_KAT_128_128.txt Count=722
+PASS  Ascon-MAC    len=722   tlen=16 LWC_MAC_KAT_128_128.txt Count=723
+PASS  Ascon-MAC    len=723   tlen=16 LWC_MAC_KAT_128_128.txt Count=724
+PASS  Ascon-MAC    len=724   tlen=16 LWC_MAC_KAT_128_128.txt Count=725
+PASS  Ascon-MAC    len=725   tlen=16 LWC_MAC_KAT_128_128.txt Count=726
+PASS  Ascon-MAC    len=726   tlen=16 LWC_MAC_KAT_128_128.txt Count=727
+PASS  Ascon-MAC    len=727   tlen=16 LWC_MAC_KAT_128_128.txt Count=728
+PASS  Ascon-MAC    len=728   tlen=16 LWC_MAC_KAT_128_128.txt Count=729
+PASS  Ascon-MAC    len=729   tlen=16 LWC_MAC_KAT_128_128.txt Count=730
+PASS  Ascon-MAC    len=730   tlen=16 LWC_MAC_KAT_128_128.txt Count=731
+PASS  Ascon-MAC    len=731   tlen=16 LWC_MAC_KAT_128_128.txt Count=732
+PASS  Ascon-MAC    len=732   tlen=16 LWC_MAC_KAT_128_128.txt Count=733
+PASS  Ascon-MAC    len=733   tlen=16 LWC_MAC_KAT_128_128.txt Count=734
+PASS  Ascon-MAC    len=734   tlen=16 LWC_MAC_KAT_128_128.txt Count=735
+PASS  Ascon-MAC    len=735   tlen=16 LWC_MAC_KAT_128_128.txt Count=736
+PASS  Ascon-MAC    len=736   tlen=16 LWC_MAC_KAT_128_128.txt Count=737
+PASS  Ascon-MAC    len=737   tlen=16 LWC_MAC_KAT_128_128.txt Count=738
+PASS  Ascon-MAC    len=738   tlen=16 LWC_MAC_KAT_128_128.txt Count=739
+PASS  Ascon-MAC    len=739   tlen=16 LWC_MAC_KAT_128_128.txt Count=740
+PASS  Ascon-MAC    len=740   tlen=16 LWC_MAC_KAT_128_128.txt Count=741
+PASS  Ascon-MAC    len=741   tlen=16 LWC_MAC_KAT_128_128.txt Count=742
+PASS  Ascon-MAC    len=742   tlen=16 LWC_MAC_KAT_128_128.txt Count=743
+PASS  Ascon-MAC    len=743   tlen=16 LWC_MAC_KAT_128_128.txt Count=744
+PASS  Ascon-MAC    len=744   tlen=16 LWC_MAC_KAT_128_128.txt Count=745
+PASS  Ascon-MAC    len=745   tlen=16 LWC_MAC_KAT_128_128.txt Count=746
+PASS  Ascon-MAC    len=746   tlen=16 LWC_MAC_KAT_128_128.txt Count=747
+PASS  Ascon-MAC    len=747   tlen=16 LWC_MAC_KAT_128_128.txt Count=748
+PASS  Ascon-MAC    len=748   tlen=16 LWC_MAC_KAT_128_128.txt Count=749
+PASS  Ascon-MAC    len=749   tlen=16 LWC_MAC_KAT_128_128.txt Count=750
+PASS  Ascon-MAC    len=750   tlen=16 LWC_MAC_KAT_128_128.txt Count=751
+PASS  Ascon-MAC    len=751   tlen=16 LWC_MAC_KAT_128_128.txt Count=752
+PASS  Ascon-MAC    len=752   tlen=16 LWC_MAC_KAT_128_128.txt Count=753
+PASS  Ascon-MAC    len=753   tlen=16 LWC_MAC_KAT_128_128.txt Count=754
+PASS  Ascon-MAC    len=754   tlen=16 LWC_MAC_KAT_128_128.txt Count=755
+PASS  Ascon-MAC    len=755   tlen=16 LWC_MAC_KAT_128_128.txt Count=756
+PASS  Ascon-MAC    len=756   tlen=16 LWC_MAC_KAT_128_128.txt Count=757
+PASS  Ascon-MAC    len=757   tlen=16 LWC_MAC_KAT_128_128.txt Count=758
+PASS  Ascon-MAC    len=758   tlen=16 LWC_MAC_KAT_128_128.txt Count=759
+PASS  Ascon-MAC    len=759   tlen=16 LWC_MAC_KAT_128_128.txt Count=760
+PASS  Ascon-MAC    len=760   tlen=16 LWC_MAC_KAT_128_128.txt Count=761
+PASS  Ascon-MAC    len=761   tlen=16 LWC_MAC_KAT_128_128.txt Count=762
+PASS  Ascon-MAC    len=762   tlen=16 LWC_MAC_KAT_128_128.txt Count=763
+PASS  Ascon-MAC    len=763   tlen=16 LWC_MAC_KAT_128_128.txt Count=764
+PASS  Ascon-MAC    len=764   tlen=16 LWC_MAC_KAT_128_128.txt Count=765
+PASS  Ascon-MAC    len=765   tlen=16 LWC_MAC_KAT_128_128.txt Count=766
+PASS  Ascon-MAC    len=766   tlen=16 LWC_MAC_KAT_128_128.txt Count=767
+PASS  Ascon-MAC    len=767   tlen=16 LWC_MAC_KAT_128_128.txt Count=768
+PASS  Ascon-MAC    len=768   tlen=16 LWC_MAC_KAT_128_128.txt Count=769
+PASS  Ascon-MAC    len=769   tlen=16 LWC_MAC_KAT_128_128.txt Count=770
+PASS  Ascon-MAC    len=770   tlen=16 LWC_MAC_KAT_128_128.txt Count=771
+PASS  Ascon-MAC    len=771   tlen=16 LWC_MAC_KAT_128_128.txt Count=772
+PASS  Ascon-MAC    len=772   tlen=16 LWC_MAC_KAT_128_128.txt Count=773
+PASS  Ascon-MAC    len=773   tlen=16 LWC_MAC_KAT_128_128.txt Count=774
+PASS  Ascon-MAC    len=774   tlen=16 LWC_MAC_KAT_128_128.txt Count=775
+PASS  Ascon-MAC    len=775   tlen=16 LWC_MAC_KAT_128_128.txt Count=776
+PASS  Ascon-MAC    len=776   tlen=16 LWC_MAC_KAT_128_128.txt Count=777
+PASS  Ascon-MAC    len=777   tlen=16 LWC_MAC_KAT_128_128.txt Count=778
+PASS  Ascon-MAC    len=778   tlen=16 LWC_MAC_KAT_128_128.txt Count=779
+PASS  Ascon-MAC    len=779   tlen=16 LWC_MAC_KAT_128_128.txt Count=780
+PASS  Ascon-MAC    len=780   tlen=16 LWC_MAC_KAT_128_128.txt Count=781
+PASS  Ascon-MAC    len=781   tlen=16 LWC_MAC_KAT_128_128.txt Count=782
+PASS  Ascon-MAC    len=782   tlen=16 LWC_MAC_KAT_128_128.txt Count=783
+PASS  Ascon-MAC    len=783   tlen=16 LWC_MAC_KAT_128_128.txt Count=784
+PASS  Ascon-MAC    len=784   tlen=16 LWC_MAC_KAT_128_128.txt Count=785
+PASS  Ascon-MAC    len=785   tlen=16 LWC_MAC_KAT_128_128.txt Count=786
+PASS  Ascon-MAC    len=786   tlen=16 LWC_MAC_KAT_128_128.txt Count=787
+PASS  Ascon-MAC    len=787   tlen=16 LWC_MAC_KAT_128_128.txt Count=788
+PASS  Ascon-MAC    len=788   tlen=16 LWC_MAC_KAT_128_128.txt Count=789
+PASS  Ascon-MAC    len=789   tlen=16 LWC_MAC_KAT_128_128.txt Count=790
+PASS  Ascon-MAC    len=790   tlen=16 LWC_MAC_KAT_128_128.txt Count=791
+PASS  Ascon-MAC    len=791   tlen=16 LWC_MAC_KAT_128_128.txt Count=792
+PASS  Ascon-MAC    len=792   tlen=16 LWC_MAC_KAT_128_128.txt Count=793
+PASS  Ascon-MAC    len=793   tlen=16 LWC_MAC_KAT_128_128.txt Count=794
+PASS  Ascon-MAC    len=794   tlen=16 LWC_MAC_KAT_128_128.txt Count=795
+PASS  Ascon-MAC    len=795   tlen=16 LWC_MAC_KAT_128_128.txt Count=796
+PASS  Ascon-MAC    len=796   tlen=16 LWC_MAC_KAT_128_128.txt Count=797
+PASS  Ascon-MAC    len=797   tlen=16 LWC_MAC_KAT_128_128.txt Count=798
+PASS  Ascon-MAC    len=798   tlen=16 LWC_MAC_KAT_128_128.txt Count=799
+PASS  Ascon-MAC    len=799   tlen=16 LWC_MAC_KAT_128_128.txt Count=800
+PASS  Ascon-MAC    len=800   tlen=16 LWC_MAC_KAT_128_128.txt Count=801
+PASS  Ascon-MAC    len=801   tlen=16 LWC_MAC_KAT_128_128.txt Count=802
+PASS  Ascon-MAC    len=802   tlen=16 LWC_MAC_KAT_128_128.txt Count=803
+PASS  Ascon-MAC    len=803   tlen=16 LWC_MAC_KAT_128_128.txt Count=804
+PASS  Ascon-MAC    len=804   tlen=16 LWC_MAC_KAT_128_128.txt Count=805
+PASS  Ascon-MAC    len=805   tlen=16 LWC_MAC_KAT_128_128.txt Count=806
+PASS  Ascon-MAC    len=806   tlen=16 LWC_MAC_KAT_128_128.txt Count=807
+PASS  Ascon-MAC    len=807   tlen=16 LWC_MAC_KAT_128_128.txt Count=808
+PASS  Ascon-MAC    len=808   tlen=16 LWC_MAC_KAT_128_128.txt Count=809
+PASS  Ascon-MAC    len=809   tlen=16 LWC_MAC_KAT_128_128.txt Count=810
+PASS  Ascon-MAC    len=810   tlen=16 LWC_MAC_KAT_128_128.txt Count=811
+PASS  Ascon-MAC    len=811   tlen=16 LWC_MAC_KAT_128_128.txt Count=812
+PASS  Ascon-MAC    len=812   tlen=16 LWC_MAC_KAT_128_128.txt Count=813
+PASS  Ascon-MAC    len=813   tlen=16 LWC_MAC_KAT_128_128.txt Count=814
+PASS  Ascon-MAC    len=814   tlen=16 LWC_MAC_KAT_128_128.txt Count=815
+PASS  Ascon-MAC    len=815   tlen=16 LWC_MAC_KAT_128_128.txt Count=816
+PASS  Ascon-MAC    len=816   tlen=16 LWC_MAC_KAT_128_128.txt Count=817
+PASS  Ascon-MAC    len=817   tlen=16 LWC_MAC_KAT_128_128.txt Count=818
+PASS  Ascon-MAC    len=818   tlen=16 LWC_MAC_KAT_128_128.txt Count=819
+PASS  Ascon-MAC    len=819   tlen=16 LWC_MAC_KAT_128_128.txt Count=820
+PASS  Ascon-MAC    len=820   tlen=16 LWC_MAC_KAT_128_128.txt Count=821
+PASS  Ascon-MAC    len=821   tlen=16 LWC_MAC_KAT_128_128.txt Count=822
+PASS  Ascon-MAC    len=822   tlen=16 LWC_MAC_KAT_128_128.txt Count=823
+PASS  Ascon-MAC    len=823   tlen=16 LWC_MAC_KAT_128_128.txt Count=824
+PASS  Ascon-MAC    len=824   tlen=16 LWC_MAC_KAT_128_128.txt Count=825
+PASS  Ascon-MAC    len=825   tlen=16 LWC_MAC_KAT_128_128.txt Count=826
+PASS  Ascon-MAC    len=826   tlen=16 LWC_MAC_KAT_128_128.txt Count=827
+PASS  Ascon-MAC    len=827   tlen=16 LWC_MAC_KAT_128_128.txt Count=828
+PASS  Ascon-MAC    len=828   tlen=16 LWC_MAC_KAT_128_128.txt Count=829
+PASS  Ascon-MAC    len=829   tlen=16 LWC_MAC_KAT_128_128.txt Count=830
+PASS  Ascon-MAC    len=830   tlen=16 LWC_MAC_KAT_128_128.txt Count=831
+PASS  Ascon-MAC    len=831   tlen=16 LWC_MAC_KAT_128_128.txt Count=832
+PASS  Ascon-MAC    len=832   tlen=16 LWC_MAC_KAT_128_128.txt Count=833
+PASS  Ascon-MAC    len=833   tlen=16 LWC_MAC_KAT_128_128.txt Count=834
+PASS  Ascon-MAC    len=834   tlen=16 LWC_MAC_KAT_128_128.txt Count=835
+PASS  Ascon-MAC    len=835   tlen=16 LWC_MAC_KAT_128_128.txt Count=836
+PASS  Ascon-MAC    len=836   tlen=16 LWC_MAC_KAT_128_128.txt Count=837
+PASS  Ascon-MAC    len=837   tlen=16 LWC_MAC_KAT_128_128.txt Count=838
+PASS  Ascon-MAC    len=838   tlen=16 LWC_MAC_KAT_128_128.txt Count=839
+PASS  Ascon-MAC    len=839   tlen=16 LWC_MAC_KAT_128_128.txt Count=840
+PASS  Ascon-MAC    len=840   tlen=16 LWC_MAC_KAT_128_128.txt Count=841
+PASS  Ascon-MAC    len=841   tlen=16 LWC_MAC_KAT_128_128.txt Count=842
+PASS  Ascon-MAC    len=842   tlen=16 LWC_MAC_KAT_128_128.txt Count=843
+PASS  Ascon-MAC    len=843   tlen=16 LWC_MAC_KAT_128_128.txt Count=844
+PASS  Ascon-MAC    len=844   tlen=16 LWC_MAC_KAT_128_128.txt Count=845
+PASS  Ascon-MAC    len=845   tlen=16 LWC_MAC_KAT_128_128.txt Count=846
+PASS  Ascon-MAC    len=846   tlen=16 LWC_MAC_KAT_128_128.txt Count=847
+PASS  Ascon-MAC    len=847   tlen=16 LWC_MAC_KAT_128_128.txt Count=848
+PASS  Ascon-MAC    len=848   tlen=16 LWC_MAC_KAT_128_128.txt Count=849
+PASS  Ascon-MAC    len=849   tlen=16 LWC_MAC_KAT_128_128.txt Count=850
+PASS  Ascon-MAC    len=850   tlen=16 LWC_MAC_KAT_128_128.txt Count=851
+PASS  Ascon-MAC    len=851   tlen=16 LWC_MAC_KAT_128_128.txt Count=852
+PASS  Ascon-MAC    len=852   tlen=16 LWC_MAC_KAT_128_128.txt Count=853
+PASS  Ascon-MAC    len=853   tlen=16 LWC_MAC_KAT_128_128.txt Count=854
+PASS  Ascon-MAC    len=854   tlen=16 LWC_MAC_KAT_128_128.txt Count=855
+PASS  Ascon-MAC    len=855   tlen=16 LWC_MAC_KAT_128_128.txt Count=856
+PASS  Ascon-MAC    len=856   tlen=16 LWC_MAC_KAT_128_128.txt Count=857
+PASS  Ascon-MAC    len=857   tlen=16 LWC_MAC_KAT_128_128.txt Count=858
+PASS  Ascon-MAC    len=858   tlen=16 LWC_MAC_KAT_128_128.txt Count=859
+PASS  Ascon-MAC    len=859   tlen=16 LWC_MAC_KAT_128_128.txt Count=860
+PASS  Ascon-MAC    len=860   tlen=16 LWC_MAC_KAT_128_128.txt Count=861
+PASS  Ascon-MAC    len=861   tlen=16 LWC_MAC_KAT_128_128.txt Count=862
+PASS  Ascon-MAC    len=862   tlen=16 LWC_MAC_KAT_128_128.txt Count=863
+PASS  Ascon-MAC    len=863   tlen=16 LWC_MAC_KAT_128_128.txt Count=864
+PASS  Ascon-MAC    len=864   tlen=16 LWC_MAC_KAT_128_128.txt Count=865
+PASS  Ascon-MAC    len=865   tlen=16 LWC_MAC_KAT_128_128.txt Count=866
+PASS  Ascon-MAC    len=866   tlen=16 LWC_MAC_KAT_128_128.txt Count=867
+PASS  Ascon-MAC    len=867   tlen=16 LWC_MAC_KAT_128_128.txt Count=868
+PASS  Ascon-MAC    len=868   tlen=16 LWC_MAC_KAT_128_128.txt Count=869
+PASS  Ascon-MAC    len=869   tlen=16 LWC_MAC_KAT_128_128.txt Count=870
+PASS  Ascon-MAC    len=870   tlen=16 LWC_MAC_KAT_128_128.txt Count=871
+PASS  Ascon-MAC    len=871   tlen=16 LWC_MAC_KAT_128_128.txt Count=872
+PASS  Ascon-MAC    len=872   tlen=16 LWC_MAC_KAT_128_128.txt Count=873
+PASS  Ascon-MAC    len=873   tlen=16 LWC_MAC_KAT_128_128.txt Count=874
+PASS  Ascon-MAC    len=874   tlen=16 LWC_MAC_KAT_128_128.txt Count=875
+PASS  Ascon-MAC    len=875   tlen=16 LWC_MAC_KAT_128_128.txt Count=876
+PASS  Ascon-MAC    len=876   tlen=16 LWC_MAC_KAT_128_128.txt Count=877
+PASS  Ascon-MAC    len=877   tlen=16 LWC_MAC_KAT_128_128.txt Count=878
+PASS  Ascon-MAC    len=878   tlen=16 LWC_MAC_KAT_128_128.txt Count=879
+PASS  Ascon-MAC    len=879   tlen=16 LWC_MAC_KAT_128_128.txt Count=880
+PASS  Ascon-MAC    len=880   tlen=16 LWC_MAC_KAT_128_128.txt Count=881
+PASS  Ascon-MAC    len=881   tlen=16 LWC_MAC_KAT_128_128.txt Count=882
+PASS  Ascon-MAC    len=882   tlen=16 LWC_MAC_KAT_128_128.txt Count=883
+PASS  Ascon-MAC    len=883   tlen=16 LWC_MAC_KAT_128_128.txt Count=884
+PASS  Ascon-MAC    len=884   tlen=16 LWC_MAC_KAT_128_128.txt Count=885
+PASS  Ascon-MAC    len=885   tlen=16 LWC_MAC_KAT_128_128.txt Count=886
+PASS  Ascon-MAC    len=886   tlen=16 LWC_MAC_KAT_128_128.txt Count=887
+PASS  Ascon-MAC    len=887   tlen=16 LWC_MAC_KAT_128_128.txt Count=888
+PASS  Ascon-MAC    len=888   tlen=16 LWC_MAC_KAT_128_128.txt Count=889
+PASS  Ascon-MAC    len=889   tlen=16 LWC_MAC_KAT_128_128.txt Count=890
+PASS  Ascon-MAC    len=890   tlen=16 LWC_MAC_KAT_128_128.txt Count=891
+PASS  Ascon-MAC    len=891   tlen=16 LWC_MAC_KAT_128_128.txt Count=892
+PASS  Ascon-MAC    len=892   tlen=16 LWC_MAC_KAT_128_128.txt Count=893
+PASS  Ascon-MAC    len=893   tlen=16 LWC_MAC_KAT_128_128.txt Count=894
+PASS  Ascon-MAC    len=894   tlen=16 LWC_MAC_KAT_128_128.txt Count=895
+PASS  Ascon-MAC    len=895   tlen=16 LWC_MAC_KAT_128_128.txt Count=896
+PASS  Ascon-MAC    len=896   tlen=16 LWC_MAC_KAT_128_128.txt Count=897
+PASS  Ascon-MAC    len=897   tlen=16 LWC_MAC_KAT_128_128.txt Count=898
+PASS  Ascon-MAC    len=898   tlen=16 LWC_MAC_KAT_128_128.txt Count=899
+PASS  Ascon-MAC    len=899   tlen=16 LWC_MAC_KAT_128_128.txt Count=900
+PASS  Ascon-MAC    len=900   tlen=16 LWC_MAC_KAT_128_128.txt Count=901
+PASS  Ascon-MAC    len=901   tlen=16 LWC_MAC_KAT_128_128.txt Count=902
+PASS  Ascon-MAC    len=902   tlen=16 LWC_MAC_KAT_128_128.txt Count=903
+PASS  Ascon-MAC    len=903   tlen=16 LWC_MAC_KAT_128_128.txt Count=904
+PASS  Ascon-MAC    len=904   tlen=16 LWC_MAC_KAT_128_128.txt Count=905
+PASS  Ascon-MAC    len=905   tlen=16 LWC_MAC_KAT_128_128.txt Count=906
+PASS  Ascon-MAC    len=906   tlen=16 LWC_MAC_KAT_128_128.txt Count=907
+PASS  Ascon-MAC    len=907   tlen=16 LWC_MAC_KAT_128_128.txt Count=908
+PASS  Ascon-MAC    len=908   tlen=16 LWC_MAC_KAT_128_128.txt Count=909
+PASS  Ascon-MAC    len=909   tlen=16 LWC_MAC_KAT_128_128.txt Count=910
+PASS  Ascon-MAC    len=910   tlen=16 LWC_MAC_KAT_128_128.txt Count=911
+PASS  Ascon-MAC    len=911   tlen=16 LWC_MAC_KAT_128_128.txt Count=912
+PASS  Ascon-MAC    len=912   tlen=16 LWC_MAC_KAT_128_128.txt Count=913
+PASS  Ascon-MAC    len=913   tlen=16 LWC_MAC_KAT_128_128.txt Count=914
+PASS  Ascon-MAC    len=914   tlen=16 LWC_MAC_KAT_128_128.txt Count=915
+PASS  Ascon-MAC    len=915   tlen=16 LWC_MAC_KAT_128_128.txt Count=916
+PASS  Ascon-MAC    len=916   tlen=16 LWC_MAC_KAT_128_128.txt Count=917
+PASS  Ascon-MAC    len=917   tlen=16 LWC_MAC_KAT_128_128.txt Count=918
+PASS  Ascon-MAC    len=918   tlen=16 LWC_MAC_KAT_128_128.txt Count=919
+PASS  Ascon-MAC    len=919   tlen=16 LWC_MAC_KAT_128_128.txt Count=920
+PASS  Ascon-MAC    len=920   tlen=16 LWC_MAC_KAT_128_128.txt Count=921
+PASS  Ascon-MAC    len=921   tlen=16 LWC_MAC_KAT_128_128.txt Count=922
+PASS  Ascon-MAC    len=922   tlen=16 LWC_MAC_KAT_128_128.txt Count=923
+PASS  Ascon-MAC    len=923   tlen=16 LWC_MAC_KAT_128_128.txt Count=924
+PASS  Ascon-MAC    len=924   tlen=16 LWC_MAC_KAT_128_128.txt Count=925
+PASS  Ascon-MAC    len=925   tlen=16 LWC_MAC_KAT_128_128.txt Count=926
+PASS  Ascon-MAC    len=926   tlen=16 LWC_MAC_KAT_128_128.txt Count=927
+PASS  Ascon-MAC    len=927   tlen=16 LWC_MAC_KAT_128_128.txt Count=928
+PASS  Ascon-MAC    len=928   tlen=16 LWC_MAC_KAT_128_128.txt Count=929
+PASS  Ascon-MAC    len=929   tlen=16 LWC_MAC_KAT_128_128.txt Count=930
+PASS  Ascon-MAC    len=930   tlen=16 LWC_MAC_KAT_128_128.txt Count=931
+PASS  Ascon-MAC    len=931   tlen=16 LWC_MAC_KAT_128_128.txt Count=932
+PASS  Ascon-MAC    len=932   tlen=16 LWC_MAC_KAT_128_128.txt Count=933
+PASS  Ascon-MAC    len=933   tlen=16 LWC_MAC_KAT_128_128.txt Count=934
+PASS  Ascon-MAC    len=934   tlen=16 LWC_MAC_KAT_128_128.txt Count=935
+PASS  Ascon-MAC    len=935   tlen=16 LWC_MAC_KAT_128_128.txt Count=936
+PASS  Ascon-MAC    len=936   tlen=16 LWC_MAC_KAT_128_128.txt Count=937
+PASS  Ascon-MAC    len=937   tlen=16 LWC_MAC_KAT_128_128.txt Count=938
+PASS  Ascon-MAC    len=938   tlen=16 LWC_MAC_KAT_128_128.txt Count=939
+PASS  Ascon-MAC    len=939   tlen=16 LWC_MAC_KAT_128_128.txt Count=940
+PASS  Ascon-MAC    len=940   tlen=16 LWC_MAC_KAT_128_128.txt Count=941
+PASS  Ascon-MAC    len=941   tlen=16 LWC_MAC_KAT_128_128.txt Count=942
+PASS  Ascon-MAC    len=942   tlen=16 LWC_MAC_KAT_128_128.txt Count=943
+PASS  Ascon-MAC    len=943   tlen=16 LWC_MAC_KAT_128_128.txt Count=944
+PASS  Ascon-MAC    len=944   tlen=16 LWC_MAC_KAT_128_128.txt Count=945
+PASS  Ascon-MAC    len=945   tlen=16 LWC_MAC_KAT_128_128.txt Count=946
+PASS  Ascon-MAC    len=946   tlen=16 LWC_MAC_KAT_128_128.txt Count=947
+PASS  Ascon-MAC    len=947   tlen=16 LWC_MAC_KAT_128_128.txt Count=948
+PASS  Ascon-MAC    len=948   tlen=16 LWC_MAC_KAT_128_128.txt Count=949
+PASS  Ascon-MAC    len=949   tlen=16 LWC_MAC_KAT_128_128.txt Count=950
+PASS  Ascon-MAC    len=950   tlen=16 LWC_MAC_KAT_128_128.txt Count=951
+PASS  Ascon-MAC    len=951   tlen=16 LWC_MAC_KAT_128_128.txt Count=952
+PASS  Ascon-MAC    len=952   tlen=16 LWC_MAC_KAT_128_128.txt Count=953
+PASS  Ascon-MAC    len=953   tlen=16 LWC_MAC_KAT_128_128.txt Count=954
+PASS  Ascon-MAC    len=954   tlen=16 LWC_MAC_KAT_128_128.txt Count=955
+PASS  Ascon-MAC    len=955   tlen=16 LWC_MAC_KAT_128_128.txt Count=956
+PASS  Ascon-MAC    len=956   tlen=16 LWC_MAC_KAT_128_128.txt Count=957
+PASS  Ascon-MAC    len=957   tlen=16 LWC_MAC_KAT_128_128.txt Count=958
+PASS  Ascon-MAC    len=958   tlen=16 LWC_MAC_KAT_128_128.txt Count=959
+PASS  Ascon-MAC    len=959   tlen=16 LWC_MAC_KAT_128_128.txt Count=960
+PASS  Ascon-MAC    len=960   tlen=16 LWC_MAC_KAT_128_128.txt Count=961
+PASS  Ascon-MAC    len=961   tlen=16 LWC_MAC_KAT_128_128.txt Count=962
+PASS  Ascon-MAC    len=962   tlen=16 LWC_MAC_KAT_128_128.txt Count=963
+PASS  Ascon-MAC    len=963   tlen=16 LWC_MAC_KAT_128_128.txt Count=964
+PASS  Ascon-MAC    len=964   tlen=16 LWC_MAC_KAT_128_128.txt Count=965
+PASS  Ascon-MAC    len=965   tlen=16 LWC_MAC_KAT_128_128.txt Count=966
+PASS  Ascon-MAC    len=966   tlen=16 LWC_MAC_KAT_128_128.txt Count=967
+PASS  Ascon-MAC    len=967   tlen=16 LWC_MAC_KAT_128_128.txt Count=968
+PASS  Ascon-MAC    len=968   tlen=16 LWC_MAC_KAT_128_128.txt Count=969
+PASS  Ascon-MAC    len=969   tlen=16 LWC_MAC_KAT_128_128.txt Count=970
+PASS  Ascon-MAC    len=970   tlen=16 LWC_MAC_KAT_128_128.txt Count=971
+PASS  Ascon-MAC    len=971   tlen=16 LWC_MAC_KAT_128_128.txt Count=972
+PASS  Ascon-MAC    len=972   tlen=16 LWC_MAC_KAT_128_128.txt Count=973
+PASS  Ascon-MAC    len=973   tlen=16 LWC_MAC_KAT_128_128.txt Count=974
+PASS  Ascon-MAC    len=974   tlen=16 LWC_MAC_KAT_128_128.txt Count=975
+PASS  Ascon-MAC    len=975   tlen=16 LWC_MAC_KAT_128_128.txt Count=976
+PASS  Ascon-MAC    len=976   tlen=16 LWC_MAC_KAT_128_128.txt Count=977
+PASS  Ascon-MAC    len=977   tlen=16 LWC_MAC_KAT_128_128.txt Count=978
+PASS  Ascon-MAC    len=978   tlen=16 LWC_MAC_KAT_128_128.txt Count=979
+PASS  Ascon-MAC    len=979   tlen=16 LWC_MAC_KAT_128_128.txt Count=980
+PASS  Ascon-MAC    len=980   tlen=16 LWC_MAC_KAT_128_128.txt Count=981
+PASS  Ascon-MAC    len=981   tlen=16 LWC_MAC_KAT_128_128.txt Count=982
+PASS  Ascon-MAC    len=982   tlen=16 LWC_MAC_KAT_128_128.txt Count=983
+PASS  Ascon-MAC    len=983   tlen=16 LWC_MAC_KAT_128_128.txt Count=984
+PASS  Ascon-MAC    len=984   tlen=16 LWC_MAC_KAT_128_128.txt Count=985
+PASS  Ascon-MAC    len=985   tlen=16 LWC_MAC_KAT_128_128.txt Count=986
+PASS  Ascon-MAC    len=986   tlen=16 LWC_MAC_KAT_128_128.txt Count=987
+PASS  Ascon-MAC    len=987   tlen=16 LWC_MAC_KAT_128_128.txt Count=988
+PASS  Ascon-MAC    len=988   tlen=16 LWC_MAC_KAT_128_128.txt Count=989
+PASS  Ascon-MAC    len=989   tlen=16 LWC_MAC_KAT_128_128.txt Count=990
+PASS  Ascon-MAC    len=990   tlen=16 LWC_MAC_KAT_128_128.txt Count=991
+PASS  Ascon-MAC    len=991   tlen=16 LWC_MAC_KAT_128_128.txt Count=992
+PASS  Ascon-MAC    len=992   tlen=16 LWC_MAC_KAT_128_128.txt Count=993
+PASS  Ascon-MAC    len=993   tlen=16 LWC_MAC_KAT_128_128.txt Count=994
+PASS  Ascon-MAC    len=994   tlen=16 LWC_MAC_KAT_128_128.txt Count=995
+PASS  Ascon-MAC    len=995   tlen=16 LWC_MAC_KAT_128_128.txt Count=996
+PASS  Ascon-MAC    len=996   tlen=16 LWC_MAC_KAT_128_128.txt Count=997
+PASS  Ascon-MAC    len=997   tlen=16 LWC_MAC_KAT_128_128.txt Count=998
+PASS  Ascon-MAC    len=998   tlen=16 LWC_MAC_KAT_128_128.txt Count=999
+PASS  Ascon-MAC    len=999   tlen=16 LWC_MAC_KAT_128_128.txt Count=1000
+PASS  Ascon-MAC    len=1000  tlen=16 LWC_MAC_KAT_128_128.txt Count=1001
+PASS  Ascon-MAC    len=1001  tlen=16 LWC_MAC_KAT_128_128.txt Count=1002
+PASS  Ascon-MAC    len=1002  tlen=16 LWC_MAC_KAT_128_128.txt Count=1003
+PASS  Ascon-MAC    len=1003  tlen=16 LWC_MAC_KAT_128_128.txt Count=1004
+PASS  Ascon-MAC    len=1004  tlen=16 LWC_MAC_KAT_128_128.txt Count=1005
+PASS  Ascon-MAC    len=1005  tlen=16 LWC_MAC_KAT_128_128.txt Count=1006
+PASS  Ascon-MAC    len=1006  tlen=16 LWC_MAC_KAT_128_128.txt Count=1007
+PASS  Ascon-MAC    len=1007  tlen=16 LWC_MAC_KAT_128_128.txt Count=1008
+PASS  Ascon-MAC    len=1008  tlen=16 LWC_MAC_KAT_128_128.txt Count=1009
+PASS  Ascon-MAC    len=1009  tlen=16 LWC_MAC_KAT_128_128.txt Count=1010
+PASS  Ascon-MAC    len=1010  tlen=16 LWC_MAC_KAT_128_128.txt Count=1011
+PASS  Ascon-MAC    len=1011  tlen=16 LWC_MAC_KAT_128_128.txt Count=1012
+PASS  Ascon-MAC    len=1012  tlen=16 LWC_MAC_KAT_128_128.txt Count=1013
+PASS  Ascon-MAC    len=1013  tlen=16 LWC_MAC_KAT_128_128.txt Count=1014
+PASS  Ascon-MAC    len=1014  tlen=16 LWC_MAC_KAT_128_128.txt Count=1015
+PASS  Ascon-MAC    len=1015  tlen=16 LWC_MAC_KAT_128_128.txt Count=1016
+PASS  Ascon-MAC    len=1016  tlen=16 LWC_MAC_KAT_128_128.txt Count=1017
+PASS  Ascon-MAC    len=1017  tlen=16 LWC_MAC_KAT_128_128.txt Count=1018
+PASS  Ascon-MAC    len=1018  tlen=16 LWC_MAC_KAT_128_128.txt Count=1019
+PASS  Ascon-MAC    len=1019  tlen=16 LWC_MAC_KAT_128_128.txt Count=1020
+PASS  Ascon-MAC    len=1020  tlen=16 LWC_MAC_KAT_128_128.txt Count=1021
+PASS  Ascon-MAC    len=1021  tlen=16 LWC_MAC_KAT_128_128.txt Count=1022
+PASS  Ascon-MAC    len=1022  tlen=16 LWC_MAC_KAT_128_128.txt Count=1023
+PASS  Ascon-MAC    len=1023  tlen=16 LWC_MAC_KAT_128_128.txt Count=1024
+PASS  Ascon-MAC    len=1024  tlen=16 LWC_MAC_KAT_128_128.txt Count=1025
+== AES-128-CMAC: RFC 4493 section 4 (= NIST SP 800-38B AES-128 examples)
+PASS  AES-128 CMAC len=0     tlen=16 RFC4493 sec.4 Example 1
+PASS  AES-128 CMAC len=16    tlen=16 RFC4493 sec.4 Example 2
+PASS  AES-128 CMAC len=40    tlen=16 RFC4493 sec.4 Example 3
+PASS  AES-128 CMAC len=64    tlen=16 RFC4493 sec.4 Example 4
+== AES-128-CMAC: NIST CAVP file not given, skipped
+== Self-test and argument checks
+PASS  built-in self-test
+PASS  reject alg=2
+PASS  reject alg=-1
+PASS  reject len = REF_MAC_MAX_BYTES + 1
+PASS  reject tag_len = 0
+PASS  reject tag_len = 17
+PASS  reject NULL key
+PASS  reject NULL msg with len > 0
+PASS  reject NULL tag
+PASS  accept NULL msg with len = 0
+PASS  reject len = REF_MAC_MAX_BYTES + 1
+PASS  reject tag_len = 0
+PASS  reject tag_len = 17
+PASS  reject NULL key
+PASS  reject NULL msg with len > 0
+PASS  reject NULL tag
+PASS  accept NULL msg with len = 0
+== Consistency and truncation (REF_MAC_MAX_BYTES = 4096)
+PASS  AES-128 CMAC len=0     consistency + truncation 1..16
+PASS  AES-128 CMAC len=1     consistency + truncation 1..16
+PASS  AES-128 CMAC len=2     consistency + truncation 1..16
+PASS  AES-128 CMAC len=3     consistency + truncation 1..16
+PASS  AES-128 CMAC len=4     consistency + truncation 1..16
+PASS  AES-128 CMAC len=5     consistency + truncation 1..16
+PASS  AES-128 CMAC len=6     consistency + truncation 1..16
+PASS  AES-128 CMAC len=7     consistency + truncation 1..16
+PASS  AES-128 CMAC len=8     consistency + truncation 1..16
+PASS  AES-128 CMAC len=9     consistency + truncation 1..16
+PASS  AES-128 CMAC len=10    consistency + truncation 1..16
+PASS  AES-128 CMAC len=11    consistency + truncation 1..16
+PASS  AES-128 CMAC len=12    consistency + truncation 1..16
+PASS  AES-128 CMAC len=13    consistency + truncation 1..16
+PASS  AES-128 CMAC len=14    consistency + truncation 1..16
+PASS  AES-128 CMAC len=15    consistency + truncation 1..16
+PASS  AES-128 CMAC len=16    consistency + truncation 1..16
+PASS  AES-128 CMAC len=17    consistency + truncation 1..16
+PASS  AES-128 CMAC len=18    consistency + truncation 1..16
+PASS  AES-128 CMAC len=19    consistency + truncation 1..16
+PASS  AES-128 CMAC len=20    consistency + truncation 1..16
+PASS  AES-128 CMAC len=21    consistency + truncation 1..16
+PASS  AES-128 CMAC len=22    consistency + truncation 1..16
+PASS  AES-128 CMAC len=23    consistency + truncation 1..16
+PASS  AES-128 CMAC len=24    consistency + truncation 1..16
+PASS  AES-128 CMAC len=25    consistency + truncation 1..16
+PASS  AES-128 CMAC len=26    consistency + truncation 1..16
+PASS  AES-128 CMAC len=27    consistency + truncation 1..16
+PASS  AES-128 CMAC len=28    consistency + truncation 1..16
+PASS  AES-128 CMAC len=29    consistency + truncation 1..16
+PASS  AES-128 CMAC len=30    consistency + truncation 1..16
+PASS  AES-128 CMAC len=31    consistency + truncation 1..16
+PASS  AES-128 CMAC len=32    consistency + truncation 1..16
+PASS  AES-128 CMAC len=33    consistency + truncation 1..16
+PASS  AES-128 CMAC len=34    consistency + truncation 1..16
+PASS  AES-128 CMAC len=35    consistency + truncation 1..16
+PASS  AES-128 CMAC len=36    consistency + truncation 1..16
+PASS  AES-128 CMAC len=37    consistency + truncation 1..16
+PASS  AES-128 CMAC len=38    consistency + truncation 1..16
+PASS  AES-128 CMAC len=39    consistency + truncation 1..16
+PASS  AES-128 CMAC len=40    consistency + truncation 1..16
+PASS  AES-128 CMAC len=41    consistency + truncation 1..16
+PASS  AES-128 CMAC len=42    consistency + truncation 1..16
+PASS  AES-128 CMAC len=43    consistency + truncation 1..16
+PASS  AES-128 CMAC len=44    consistency + truncation 1..16
+PASS  AES-128 CMAC len=45    consistency + truncation 1..16
+PASS  AES-128 CMAC len=46    consistency + truncation 1..16
+PASS  AES-128 CMAC len=47    consistency + truncation 1..16
+PASS  AES-128 CMAC len=48    consistency + truncation 1..16
+PASS  AES-128 CMAC len=49    consistency + truncation 1..16
+PASS  AES-128 CMAC len=50    consistency + truncation 1..16
+PASS  AES-128 CMAC len=51    consistency + truncation 1..16
+PASS  AES-128 CMAC len=52    consistency + truncation 1..16
+PASS  AES-128 CMAC len=53    consistency + truncation 1..16
+PASS  AES-128 CMAC len=54    consistency + truncation 1..16
+PASS  AES-128 CMAC len=55    consistency + truncation 1..16
+PASS  AES-128 CMAC len=56    consistency + truncation 1..16
+PASS  AES-128 CMAC len=57    consistency + truncation 1..16
+PASS  AES-128 CMAC len=58    consistency + truncation 1..16
+PASS  AES-128 CMAC len=59    consistency + truncation 1..16
+PASS  AES-128 CMAC len=60    consistency + truncation 1..16
+PASS  AES-128 CMAC len=61    consistency + truncation 1..16
+PASS  AES-128 CMAC len=62    consistency + truncation 1..16
+PASS  AES-128 CMAC len=63    consistency + truncation 1..16
+PASS  AES-128 CMAC len=64    consistency + truncation 1..16
+PASS  AES-128 CMAC len=65    consistency + truncation 1..16
+PASS  AES-128 CMAC len=127   consistency + truncation 1..16
+PASS  AES-128 CMAC len=128   consistency + truncation 1..16
+PASS  AES-128 CMAC len=129   consistency + truncation 1..16
+PASS  AES-128 CMAC len=1023  consistency + truncation 1..16
+PASS  AES-128 CMAC len=1024  consistency + truncation 1..16
+PASS  AES-128 CMAC len=2048  consistency + truncation 1..16
+PASS  AES-128 CMAC len=4095  consistency + truncation 1..16
+PASS  AES-128 CMAC len=4096  consistency + truncation 1..16
+PASS  Ascon-MAC    len=0     consistency + truncation 1..16
+PASS  Ascon-MAC    len=1     consistency + truncation 1..16
+PASS  Ascon-MAC    len=2     consistency + truncation 1..16
+PASS  Ascon-MAC    len=3     consistency + truncation 1..16
+PASS  Ascon-MAC    len=4     consistency + truncation 1..16
+PASS  Ascon-MAC    len=5     consistency + truncation 1..16
+PASS  Ascon-MAC    len=6     consistency + truncation 1..16
+PASS  Ascon-MAC    len=7     consistency + truncation 1..16
+PASS  Ascon-MAC    len=8     consistency + truncation 1..16
+PASS  Ascon-MAC    len=9     consistency + truncation 1..16
+PASS  Ascon-MAC    len=10    consistency + truncation 1..16
+PASS  Ascon-MAC    len=11    consistency + truncation 1..16
+PASS  Ascon-MAC    len=12    consistency + truncation 1..16
+PASS  Ascon-MAC    len=13    consistency + truncation 1..16
+PASS  Ascon-MAC    len=14    consistency + truncation 1..16
+PASS  Ascon-MAC    len=15    consistency + truncation 1..16
+PASS  Ascon-MAC    len=16    consistency + truncation 1..16
+PASS  Ascon-MAC    len=17    consistency + truncation 1..16
+PASS  Ascon-MAC    len=18    consistency + truncation 1..16
+PASS  Ascon-MAC    len=19    consistency + truncation 1..16
+PASS  Ascon-MAC    len=20    consistency + truncation 1..16
+PASS  Ascon-MAC    len=21    consistency + truncation 1..16
+PASS  Ascon-MAC    len=22    consistency + truncation 1..16
+PASS  Ascon-MAC    len=23    consistency + truncation 1..16
+PASS  Ascon-MAC    len=24    consistency + truncation 1..16
+PASS  Ascon-MAC    len=25    consistency + truncation 1..16
+PASS  Ascon-MAC    len=26    consistency + truncation 1..16
+PASS  Ascon-MAC    len=27    consistency + truncation 1..16
+PASS  Ascon-MAC    len=28    consistency + truncation 1..16
+PASS  Ascon-MAC    len=29    consistency + truncation 1..16
+PASS  Ascon-MAC    len=30    consistency + truncation 1..16
+PASS  Ascon-MAC    len=31    consistency + truncation 1..16
+PASS  Ascon-MAC    len=32    consistency + truncation 1..16
+PASS  Ascon-MAC    len=33    consistency + truncation 1..16
+PASS  Ascon-MAC    len=34    consistency + truncation 1..16
+PASS  Ascon-MAC    len=35    consistency + truncation 1..16
+PASS  Ascon-MAC    len=36    consistency + truncation 1..16
+PASS  Ascon-MAC    len=37    consistency + truncation 1..16
+PASS  Ascon-MAC    len=38    consistency + truncation 1..16
+PASS  Ascon-MAC    len=39    consistency + truncation 1..16
+PASS  Ascon-MAC    len=40    consistency + truncation 1..16
+PASS  Ascon-MAC    len=41    consistency + truncation 1..16
+PASS  Ascon-MAC    len=42    consistency + truncation 1..16
+PASS  Ascon-MAC    len=43    consistency + truncation 1..16
+PASS  Ascon-MAC    len=44    consistency + truncation 1..16
+PASS  Ascon-MAC    len=45    consistency + truncation 1..16
+PASS  Ascon-MAC    len=46    consistency + truncation 1..16
+PASS  Ascon-MAC    len=47    consistency + truncation 1..16
+PASS  Ascon-MAC    len=48    consistency + truncation 1..16
+PASS  Ascon-MAC    len=49    consistency + truncation 1..16
+PASS  Ascon-MAC    len=50    consistency + truncation 1..16
+PASS  Ascon-MAC    len=51    consistency + truncation 1..16
+PASS  Ascon-MAC    len=52    consistency + truncation 1..16
+PASS  Ascon-MAC    len=53    consistency + truncation 1..16
+PASS  Ascon-MAC    len=54    consistency + truncation 1..16
+PASS  Ascon-MAC    len=55    consistency + truncation 1..16
+PASS  Ascon-MAC    len=56    consistency + truncation 1..16
+PASS  Ascon-MAC    len=57    consistency + truncation 1..16
+PASS  Ascon-MAC    len=58    consistency + truncation 1..16
+PASS  Ascon-MAC    len=59    consistency + truncation 1..16
+PASS  Ascon-MAC    len=60    consistency + truncation 1..16
+PASS  Ascon-MAC    len=61    consistency + truncation 1..16
+PASS  Ascon-MAC    len=62    consistency + truncation 1..16
+PASS  Ascon-MAC    len=63    consistency + truncation 1..16
+PASS  Ascon-MAC    len=64    consistency + truncation 1..16
+PASS  Ascon-MAC    len=65    consistency + truncation 1..16
+PASS  Ascon-MAC    len=127   consistency + truncation 1..16
+PASS  Ascon-MAC    len=128   consistency + truncation 1..16
+PASS  Ascon-MAC    len=129   consistency + truncation 1..16
+PASS  Ascon-MAC    len=1023  consistency + truncation 1..16
+PASS  Ascon-MAC    len=1024  consistency + truncation 1..16
+PASS  Ascon-MAC    len=2048  consistency + truncation 1..16
+PASS  Ascon-MAC    len=4095  consistency + truncation 1..16
+PASS  Ascon-MAC    len=4096  consistency + truncation 1..16
+
+SUMMARY: 1194 passed, 0 failed, 0 skipped
