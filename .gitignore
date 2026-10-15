@@ -1,0 +1,32 @@
+__pycache__/
+*.venv 
+
+tb/sim_build/
+tb/xsim_lint/
+tb/results.xml
+src/xsim.dir/
+*.jou
+*.result.xml
+.claude
+
+# Vivado generated output (keep .xpr and .srcs)
+AsconCAN.cache/
+AsconCAN.gen/
+AsconCAN.hw/
+AsconCAN.ip_user_files/
+AsconCAN.runs/
+AsconCAN.sim/
+*.str
+vivado*.log
+vivado*.jou
+.Xil/
+
+# harness + fpga generated output
+fpga/reports/
+*.mcs
+*.bit
+
+# stale xsim output
+src/xvlog.log
+src/xvlog.pb
+
