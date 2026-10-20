@@ -58,6 +58,8 @@ package ref_mac_pkg;
         input int               ad_len,
         input byte unsigned     din[],
         input int               in_len,
+        input byte unsigned     tag_in[],
+
         output byte unsigned    dout[],
         output byte unsigned    tag_out[]
     );
