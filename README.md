@@ -3,6 +3,8 @@
 # AsconCAN
 **Ascon Cipher Suite for Third Generation CAN XL Networks.**
 
+The purpose of this repository is to study Ascon as an alternate cipher suite for CANsec, focusing on low power and area optimization.
+
 Ascon Core supporting AEAD and MAC for CANsec applications, compared against NIST KATs for verification.
 
 An AES-GCM/CMAC Core with identical interface is also provided for comparison.
@@ -119,6 +121,22 @@ AES skips due to:
 | AEAD tail (last byte in → tag) | 227 | 331 |
 | MAC TX, cycles/byte | 8.8 | 20.0 |
 | MAC RX, cycles/byte | 7.1 | 11.4 |
+
+### Implementation Reports (On Spartan-7)
+| | Ascon | AES | Ascon vs AES |
+|---|---|---|---|
+| Fmax (post-route) | **229.1 MHz** | 133.1 MHz | 1.72× |
+| Critical path | 3 logic levels, 3.58 ns | 9 logic levels, 6.58 ns | |
+| Dynamic power @ 100 MHz | **10 mW** | 12 mW | −17% |
+| Total power @ 100 MHz (incl. 58 mW device static) | 68 mW | 70 mW | |
+| Slice LUTs | **391** (2.68%) | 763 (5.23%) | −49% |
+| ↳ LUT as memory | 61 (shift registers) | 44 (distributed RAM) | |
+| Slice registers | **315** (1.08%) | 430 (1.47%) | −27% |
+| Slices | **124** (3.40%) | 249 (6.82%) | −50% |
+| F7 muxes | 0 | 35 | |
+| BRAM / DSP | 0 / 0 | 0 / 0 | |
+
+> Power report based on SAIF log estimates over 10,000 random test vectors.
 
 ## License
 

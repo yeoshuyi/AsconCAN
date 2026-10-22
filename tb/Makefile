@@ -12,6 +12,7 @@ N_RAND ?= 1000
 AEAD_EN ?= 1
 GHASH_D ?= 4
 PLUSARGS ?=
+SAIF     ?= 0
 
 ALG_ID_ascon := 1
 ALG_ID_aes := 0
@@ -42,6 +43,14 @@ ALL_ARGS := +SUITE=$(SUITE) +SEED=$(SEED) +N_RAND=$(N_RAND) \
             +TIMING_CSV=$(BUILD)/timing.csv $(KATS) $(PLUSARGS)
 XSIM_ARGS := $(foreach a,$(ALL_ARGS),-testplusarg $(patsubst +%,%,$(a)))
 
+ifeq ($(SAIF),1)
+  ELAB_DEBUG := -debug typical
+  XSIM_RUN   := -tclbatch $(SV_DIR)/saif.tcl -onfinish stop
+else
+  ELAB_DEBUG :=
+  XSIM_RUN   := -R
+endif
+
 SRCS := $(addprefix $(ROOT)/,$(shell sed -e 's/\#.*//' $(SV_DIR)/tb.f))
 DEPS := $(SRCS) $(wildcard $(SV_DIR)/env/*.svh) $(SV_DIR)/tb.f
 
@@ -64,11 +73,11 @@ elab: dpi $(BUILD)/xvlog.done
 	cd $(BUILD) && xelab tb_top -s tb_snap -timescale 1ns/1ps \
 		-generic_top "ALG=$(ALG_ID)" -generic_top "AEAD_EN=$(AEAD_EN)" \
 		-generic_top "GHASH_D=$(GHASH_D)" \
-		-sv_root $(DPI_DIR) -sv_lib libref_dpi --log xelab.log > /dev/null \
+		$(ELAB_DEBUG) -sv_root $(DPI_DIR) -sv_lib libref_dpi --log xelab.log > /dev/null \
 		|| { grep -E "ERROR|WARNING" $(BUILD)/xelab.log; exit 1; }
 
 sim: elab
-	cd $(BUILD) && xsim tb_snap -R $(XSIM_ARGS) --log xsim.log > /dev/null; true
+	cd $(BUILD) && xsim tb_snap -R $(XSIM_RUN) $(XSIM_ARGS) --log xsim.log > /dev/null; true
 	@sed -n '/==== CAN XL/,$$p' $(BUILD)/xsim.log | grep -v "^INFO: \[" || true
 	@grep -q "^TEST PASSED" $(BUILD)/xsim.log
 
