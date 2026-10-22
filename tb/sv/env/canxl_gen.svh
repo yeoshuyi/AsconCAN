@@ -393,15 +393,24 @@ class canxl_gen;
             bit         mode = aead_en ? 1'($urandom_range(1)) : 1'b0;
             bit         dir  = 1'($urandom_range(1));
             string      src;
+            int         plen;
 
             if ((k > 0) && ($urandom_range(99) < 10)) rand_key(key, sci);
 
             void'(cf.randomize());
-            cf.dlc = 11'(pick_len() - 1);
+            plen   = pick_len();
+            cf.dlc = 11'(plen - 1);
             cf.sec = 1'b1;
             cf.fv  = fv++;
             cf.sci = sci;
-            repeat (int'(cf.dlc) + 1) cf.payload.push_back(8'($urandom));
+
+            // xsim 2025.1.1: repeat (int'(cf.dlc) + 1) runs only once,
+            // so the count must come from a local
+            repeat (plen) cf.payload.push_back(8'($urandom));
+            if (cf.payload.size() != plen)
+                $fatal(1, "random_frames %0d: payload %0d bytes, expected %0d", k,
+                       cf.payload.size(), plen);
+
             hdr = cf.header();
             src = $sformatf("RAND %0d prio=%03h vcid=%02h dlc=%0d fv=%08h", k, cf.prio, cf.vcid,
                             cf.dlc, cf.fv);
@@ -450,4 +459,77 @@ class canxl_gen;
             push(rx, q);
         end
     endfunction
+
+    // // Random CANsec traffic. RX frames are built from what the model
+    // // transmits, and rx_bad_pct of them are tampered with in transit.
+    // function void random_frames(int n, ref sec_frame q[$]);
+    //     bq_t        key;
+    //     bit [63:0]  sci;
+    //     bit [31:0]  fv = $urandom;
+
+    //     rand_key(key, sci);
+    //     for (int k = 0; k < n; k++) begin
+    //         canxl_frame cf = new();
+    //         sec_frame   tx, rx;
+    //         bq_t        hdr, msg;
+    //         bit         mode = aead_en ? 1'($urandom_range(1)) : 1'b0;
+    //         bit         dir  = 1'($urandom_range(1));
+    //         string      src;
+
+    //         if ((k > 0) && ($urandom_range(99) < 10)) rand_key(key, sci);
+
+    //         void'(cf.randomize());
+    //         cf.dlc = 11'(pick_len() - 1);
+    //         cf.sec = 1'b1;
+    //         cf.fv  = fv++;
+    //         cf.sci = sci;
+    //         repeat (int'(cf.dlc) + 1) cf.payload.push_back(8'($urandom));
+    //         hdr = cf.header();
+    //         src = $sformatf("RAND %0d prio=%03h vcid=%02h dlc=%0d fv=%08h", k, cf.prio, cf.vcid,
+    //                         cf.dlc, cf.fv);
+
+    //         tx = new_frame("rand", src, mode, 1'b0, key);
+    //         if (mode) begin
+    //             tx.nonce = cf.nonce(alg);
+    //             tx.ad    = hdr;
+    //             tx.data  = cf.payload;
+    //         end else begin
+    //             msg = hdr;
+    //             foreach (cf.payload[i]) msg.push_back(cf.payload[i]);
+    //             tx.data = msg;
+    //         end
+
+    //         if (dir == 1'b0) begin
+    //             push(tx, q);
+    //             continue;
+    //         end
+
+    //         // What the far end would have put on the bus
+    //         rx = tx.clone();
+    //         rx.dir = 1'b1;
+    //         if (!eval.compute(tx)) begin
+    //             rx.ref_err = {"cannot build RX frame: ", tx.ref_err};
+    //             q.push_back(rx);
+    //             continue;
+    //         end
+    //         if (mode) rx.data = tx.ref_out;
+    //         rx.tag_in = {};
+    //         foreach (tx.exp_tag[i]) rx.tag_in.push_back(tx.exp_tag[i]);
+
+    //         if ($urandom_range(99) < rx_bad_pct) begin
+    //             int which = $urandom_range(mode ? 2 : 1);
+    //             if (which == 0) begin
+    //                 rx.neg = NEG_TAG;
+    //                 flip_bit(rx.tag_in);
+    //             end else if (which == 1) begin
+    //                 rx.neg = NEG_DATA;
+    //                 flip_bit(rx.data);
+    //             end else begin
+    //                 rx.neg = NEG_AD;
+    //                 flip_bit(rx.ad);
+    //             end
+    //         end
+    //         push(rx, q);
+    //     end
+    // endfunction
 endclass
