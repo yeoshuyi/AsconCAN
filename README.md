@@ -111,32 +111,39 @@ AES skips due to:
 - 16 Unsupported Length for CANsec.
 - 160 Empty AD and PT, invalid for CANsec.
 
-### Timing (full regression, 100 MHz, cycles, average)
-
+### Timing (10,000 random CAN XL frames, 25% backpressure / 15% input gaps, `SEED=1`, cycles)
 | | Ascon | AES |
 |---|---|---|
-| Key setup | 16 | 1166 |
-| AEAD TX, cycles/byte | 16.1 | 13.8 |
-| AEAD RX, cycles/byte | 11.5 | 10.9 |
-| AEAD tail (last byte in → tag) | 227 | 331 |
-| MAC TX, cycles/byte | 8.8 | 20.0 |
-| MAC RX, cycles/byte | 7.1 | 11.4 |
+| Key setup | **16** | 1166 |
+| AEAD TX, cycles/byte | **12.62** | 17.03 |
+| AEAD RX, cycles/byte | **10.46** | 14.33 |
+| MAC TX, cycles/byte | **9.62** | 17.14 |
+| MAC RX, cycles/byte | **7.50** | 13.31 |
+| MAC start (first byte in → accepted) | 201 | **1** |
+| AEAD tail (last byte in → tag), avg (max) | **244** (366) | 324 (334) |
+| MAC tail (last byte in → tag), avg (max) | **223** (425) | 291 (302) |
+| RX post (last byte out → `tag_ok`), AEAD / MAC | **2 / 2** | 55 / 23 |
+| Worst-case frame latency, AEAD / MAC | **20371 / 16005** | 35269 / 29463 |
+| Total simulated time, 10k frames | **386 ms** | 640 ms |
 
 ### Implementation Reports (On Spartan-7)
 | | Ascon | AES | Ascon vs AES |
 |---|---|---|---|
 | Fmax (post-route) | **229.1 MHz** | 133.1 MHz | 1.72× |
 | Critical path | 3 logic levels, 3.58 ns | 9 logic levels, 6.58 ns | |
-| Dynamic power @ 100 MHz | **10 mW** | 12 mW | −17% |
-| Total power @ 100 MHz (incl. 58 mW device static) | 68 mW | 70 mW | |
+| Dynamic power @ 100 MHz | **9 mW** | 12 mW | −25% |
+| Total power @ 100 MHz (incl. 58 mW device static) | 67 mW | 70 mW | |
+| Dynamic energy per frame (approx.) | **0.35 µJ** | 0.77 µJ | −55% |
 | Slice LUTs | **391** (2.68%) | 763 (5.23%) | −49% |
 | ↳ LUT as memory | 61 (shift registers) | 44 (distributed RAM) | |
 | Slice registers | **315** (1.08%) | 430 (1.47%) | −27% |
 | Slices | **124** (3.40%) | 249 (6.82%) | −50% |
-| F7 muxes | 0 | 35 | |
+| F7 / F8 muxes | 0 / 0 | 35 / 16 | |
 | BRAM / DSP | 0 / 0 | 0 / 0 | |
 
-> Power report based on SAIF log estimates over 10,000 random test vectors.
+> Device xc7s25csga324-1, Vivado 2025.1.1, post-route. Fmax from a post-route period sweep.
+> Power from SAIF activity over the 10,000-frame random run (Vivado confidence: Medium, 25% of nets matched).
+> Energy per frame = dynamic power × total simulated time ÷ 10,000, so it includes stall and idle cycles.
 
 ## License
 
