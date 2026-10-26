@@ -83,6 +83,10 @@ make -C tb regress                          # both cores, KAT + random suites
 make -C tb sim ALG=aes SUITE=kat            # one core, one suite
 make -C tb sim ALG=ascon PLUSARGS="+BP_PCT=50 +GAP_PCT=30 +NEG=0"
 make -C tb sim ALG=ascon PLUSARGS=+INJECT_ERR   # TB self-test: must report TEST FAILED
+
+#For SAIF reporting
+make -C tb sim ALG=aes SUITE=rand SAIF=1 N_RAND=10000
+make -C tb sim ALG=ascon SUITE=rand SAIF=1 N_RAND=10000
 ```
 
 | Plusarg | Default | Effect |
@@ -94,6 +98,24 @@ make -C tb sim ALG=ascon PLUSARGS=+INJECT_ERR   # TB self-test: must report TEST
 | `+MAX_FRAMES=<n>` | – | Stop early (debugging) |
 | `+VERBOSE` | – | Print every passing frame |
 | `+CLK_MHZ=<f>` | 100 | Clock used for the µs figures |
+
+## Vivado Profiling
+```bash
+vivado -mode batch -nojournal -nolog -source fpga/util.tcl -tclargs <ascon|aes> [options]
+
+# Example
+vivado -mode batch -nojournal -nolog -source fpga/util.tcl -tclargs ascon impl power fmax saif=tb/sim_build/ascon/core.saif
+vivado -mode batch -nojournal -nolog -source fpga/util.tcl -tclargs aes impl power fmax saif=tb/sim_build/aes/core.saif
+```
+
+| Options | Effect |
+|---|---|
+| `impl` | Place and route as well |
+| `power` | Report Power |
+| `fmax` | Sweep for Fmax |
+| `period=<ns>` | Clock Period for Synthesis (Default 10ns) |
+| `saif=<path>` | SAIF file for Power Estimates |
+| `generic=<k>=<v> | Core Parameters |
 
 ## Results
 
