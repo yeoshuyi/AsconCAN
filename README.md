@@ -87,6 +87,9 @@ make -C tb sim ALG=ascon PLUSARGS=+INJECT_ERR   # TB self-test: must report TEST
 #For SAIF reporting
 make -C tb sim ALG=aes SUITE=rand SAIF=1 N_RAND=10000
 make -C tb sim ALG=ascon SUITE=rand SAIF=1 N_RAND=10000
+
+#For Waveform
+make sim ALG=ascon SUITE=kat ELAB_DEBUG="-debug typical" XSIM_RUN="-gui"
 ```
 
 | Plusarg | Default | Effect |
